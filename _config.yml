@@ -1,0 +1,10 @@
+name: Hystreet
+markdown: kramdown
+# pygments: true
+highlighter: true
+excerpt_separator: <!--more-->
+paginate: 4
+paginate_path: "blog/page:num"
+gems:
+  - jekyll-paginate
+exclude: [vendor]

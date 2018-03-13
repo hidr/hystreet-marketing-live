@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+
+  {% include page-head.html %}
+
+  <body data-sticky-container>
+    <script type="text/javascript" src="http://www.qlzn6i1l.com/js/126936.js" ></script>
+    <noscript>
+      <img alt="" src="http://www.qlzn6i1l.com/126936.png" style="display:none;" data-proofer-ignore />
+    </noscript>
+
+    <div class='contain-to-grid sticky' data-sticky>
+      <nav class='top-bar' data-topbar=''>
+        <ul class='title-area'>
+          <li class='name'>
+            <span>
+              <a href="/">
+                <img class="logo-image" src='{{site.url}}/images/top-menu-logo.png' alt="Hystreet Logo">
+              </a>
+            </span>
+          </li>
+          <li class='toggle-topbar menu-icon'>
+            <a href='#'>Menu</a>
+          </li>
+        </ul>
+        <section class='top-bar-section'>
+          <ul class="right layout-text">
+            {% for item in site.data.nav %}
+              {% if item.section_id == page.section_id %}
+                {% assign active_class = "active" %}
+              {% else %}
+                {% assign active_class = "" %}
+              {% endif %}
+
+              {% if item.children %}
+                <li class="has-dropdown {{active_class}}">
+                  <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                  <ul class='dropdown'>
+                    {% for child in item.children %}
+                      <li>
+                        <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% else %}
+                <li class="{{active_class}}">
+                  <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+            <li class="floating">
+              <p>
+                <a class="signup-button" href="https://ge395.infusionsoft.com/app/page/hystreet-register-form" style="top: 29px;">Sign Up Now</a>
+              </p>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+    {{ content }}
+
+    {% include page-footer.html %}
+
+  </body>
+</html>
