@@ -1,0 +1,23 @@
+<div class='full white centered-text'>
+  <div class='row'>
+    <div class='special-title p-whys'>
+      <h2>Offer your own service</h2>
+      <p>Use Hystreet in a variety of ways, to provide the service that your business needs and your clients want.</p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    {% for why in site.data.whys %}
+      {% if include.shape %}
+        {% assign shape = include.shape %}
+      {% else %}
+        {% assign shape = "boxed" %}
+      {% endif %}
+      <div class='medium-12 large-4 columns icon icon-text-{{shape}}'>
+        <img class="whys-image text-center" src="/images/{{ why.image }}" alt="{{ why.title }}">
+        <h3>{{ why.title }}</h3>
+        <p>{{ why.desc }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>

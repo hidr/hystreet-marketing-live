@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+
+<div class='full about-hero' style='background: URL("{{site.url}}/images/20180201 700 _DSF9334.jpg");
+                                                  background-position:0% 70%;
+                                                  background-size:cover;'>
+  <div class='row'>
+    <div class='special-title layout-text' style="
+    position: sticky;
+    vertical-align: middle;
+    margin-top: 10%;
+    margin-bottom:  10%;
+">
+      <h2 style="margin-top: 8px;color: #FFF;font-size: 329%;font-weight: bolder;">Our Blog</h2>
+      <p style="color:#FFFFFF;">Founder and CEO of Hystreet Awais Ahmad shares his thoughts in this weekly blog.</p>
+    </div>
+    <div class='spacing'></div>
+    <div class='spacing'></div>
+  </div>
+</div>
+<div class='full' style="
+    height: fit-content;
+    padding-bottom:  0;
+    background: #333;
+">
+  <div class='row' style="max-width: 1003px; margin-bottom: 50px;">
+    <div style="margin:0 auto;">
+      <h2 style="
+    float:  left;
+    margin-right:  20px;
+   color:#FFF
+">Recieve my weekly blog?</h2>
+<form accept-charset="UTF-8" action="https://ge395.infusionsoft.com/app/form/process/3a2068882de6cd4ab24e281e9c53eedf" class="infusion-form" id="inf_form_3a2068882de6cd4ab24e281e9c53eedf" method="POST">
+    <input name="inf_form_xid" type="hidden" value="3a2068882de6cd4ab24e281e9c53eedf" />
+    <input name="inf_form_name" type="hidden" value="Web Form submitted" />
+    <input name="infusionsoft_version" type="hidden" value="1.69.0.37" />
+    <div class="infusion-field" style="float: left; margin-right: 20px;">
+        <input class="infusion-field-input" id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" style="color: #FFF"/>
+    </div>
+    <div class="infusion-field" style="float: left; margin-right: 20px;">
+        <input class="infusion-field-input" id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" style="color: #FFF"/>
+    </div>
+    <div>
+    </div>
+    <div class="infusion-submit" style="float: left; margin-right: 20px; margin-top:2px;">
+        <button style="margin:0 auto; display: block;" class="infusion-recaptcha" id="recaptcha_3a2068882de6cd4ab24e281e9c53eedf" type="submit">Sign up</button>
+    </div>
+</form>
+<script type="text/javascript" src="https://ge395.infusionsoft.com/app/webTracking/getTrackingCode"></script>
+<script type="text/javascript" src="https://ge395.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.69.0.37-hf-201801311540"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer="defer"></script>
+<script type="text/javascript" src="https://ge395.infusionsoft.com/app/timezone/timezoneInputJs?xid=3a2068882de6cd4ab24e281e9c53eedf"></script>    <div class='large-12 columns'>
+      </div>
+      </div>
+  </div>
+</div>
+<div class="full">
+    <div class="row">
+      {{ content }}
+
+      {% if paginator %}
+        <div class="pager">
+          {% if paginator.next_page %}
+            {% if paginator.next_page == 1 %}
+              <a href="/blog" class="older">Older Entries</a>
+            {% else %}
+              <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries</a>
+            {% endif %}
+          {% else %}
+            <span class="older">Older Entries</span>
+          {% endif %}
+          {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+              <a href="/blog" class="newer">Newer Entries</a>
+            {% else %}
+              <a href="/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a>
+            {% endif %}
+          {% else %}
+            <span class="newer">Newer Entries</span>
+          {% endif %}
+        </div>
+      {% endif %}
+
+    </div>
+  </div>

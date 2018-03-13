@@ -1,0 +1,17 @@
+<ul data-orbit=''>
+  {% for slide in site.data.slides %}
+    <li>
+      <img src="{{site.url}}/images/{{slide.image}}" />
+      <div class='orbit-caption caption-{{ slide.desc_location }}'>
+        <div class='row'>
+          <div class='large-6 columns left'>
+            {{ slide.desc }}
+          </div>
+          <div class='large-6 columns right'>
+            <iframe src="https://player.vimeo.com/video/212094970" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

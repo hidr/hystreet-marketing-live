@@ -1,0 +1,133 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+       - image: circleci/ruby:2.4.1-node-browsers
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+
+      # Database setup
+      # - run: bundle exec rake db:create
+      # - run: bundle exec rake db:schema:load
+
+      # run tests!
+      - run:
+          name: Jekyll Build
+          command: |
+            mkdir /tmp/test-results
+            TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
+
+            bundle exec jekyll build --verbose
+
+      # run html-proofer
+      - run:
+          name: run html-proofer
+          command: bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external --directory_index_file index.html
+          # command: echo "Go Wildcats!"
+
+      # collect reports
+      - store_test_results:
+          path: /tmp/test-results
+      - store_artifacts:
+          path: /tmp/test-results
+          destination: test-results
+
+
+  deploy:
+        working_directory: ~/repo
+        docker:
+            - image: circleci/ruby:2.4.1-node-browsers
+        steps:
+            # Log the current branch
+            - run:
+                name: Show current branch
+                command: echo ${CIRCLE_BRANCH}
+
+            - checkout
+
+        # Download and cache dependencies
+            - restore_cache:
+                keys:
+                - v1-dependencies-{{ checksum "Gemfile.lock" }}
+                # fallback to using the latest cache if no exact match is found
+                - v1-dependencies-
+
+            - run:
+                name: install dependencies
+                command: |
+                  bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+            - save_cache:
+                paths:
+                  - ./vendor/bundle
+                key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+
+            - run:
+                name: Jekyll Build
+                command: |
+                  mkdir /tmp/test-results
+                  TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
+
+                  bundle exec jekyll build --verbose
+
+            #-------------------------------------------------
+            # Install AWS cli
+            - run:
+                name: Install aws cli
+                command:
+                    sudo apt-get -y -qq install awscli
+            # Set the signature version for the S3 auth
+            - run:
+                name: Setting Signature Version 4 for S3 Request Authentication
+                command: aws configure set default.s3.signature_version s3v4
+            # Deploy to the S3 bucket corresponding to the current branch
+            - run:
+                name: Deploy to S3
+                command: |
+                    if [ "${CIRCLE_BRANCH}" == "master" ]; then
+                        aws --region eu-west-1 s3 sync _site s3://hystreet-marketing/ --delete
+                    fi
+
+workflows:
+    version: 2
+    # The build and deploy workflow
+    build_and_deploy:
+        jobs:
+            - build
+            # - deploy:
+            #     requires:
+            #         - build
+            #     filters:
+            #         branches:
+            #             only:
+            #                 - master
