@@ -67,7 +67,7 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
+/*   max-width: 100%; */
   height: auto;
 }
 
@@ -133,6 +133,7 @@ select {
   margin-top: 0;
   margin-bottom: 0;
   *zoom: 1;
+  padding: 50px;
 }
 
 .row {
@@ -1974,16 +1975,18 @@ select {
   margin: 0;
 }
 
-button,
-.button {
+button {
   text-transform: uppercase;
   font-size: 14px;
   padding: 12px 16px 12px;
   background: #e63375;
   color: #fff;
-  border-radius: 7.5px;
+  border-radius: 100px;
+  border-color: #FFFFFF;
+  box-shadow: 5px 5px 20px #33333380;
+  padding: 15px 20px 15px 20px;
+  border-width: 2px;
   border-style: solid;
-  border-color: #e63375;
 }
 
 @media only screen and (max-width: 400px) {
@@ -5988,7 +5991,7 @@ p {
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;
+  margin-bottom: 10px;
   text-rendering: optimizeLegibility;
 }
 p.lead {
@@ -7557,8 +7560,7 @@ th.hide-for-touch {
 
 .floating {
   height: 100px;
-  text-align: center;
-  padding: 0px 14px;
+  text-align: right;
 }
 
 .video-links {
