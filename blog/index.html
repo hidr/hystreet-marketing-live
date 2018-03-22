@@ -1,8 +1,37 @@
 ---
-title: Hystreet | Estate Agency Software
-layout: default
+layout: blog
+title: Blog
+section_id: blog
 ---
-<p>Ad consequat sit nisi ea eu esse ea culpa voluptate duis. Reprehenderit velit ut laborum culpa esse ad minim. Magna adipisicing ut irure laborum irure enim consectetur et elit dolore culpa. Pariatur velit pariatur sunt deserunt anim ipsum anim veniam duis irure consequat. Ex nisi non velit eu consequat commodo adipisicing. Consectetur fugiat eu velit reprehenderit ipsum qui nostrud voluptate Lorem incididunt do incididunt commodo labore aliqua do. Deserunt aute magna duis aliquip consequat laboris ut aute velit eu ea sunt non laborum. Cillum deserunt est minim consequat veniam sunt culpa est minim.</p>
-<p>Excepteur ut amet adipisicing ex nostrud deserunt laborum. Laboris esse qui veniam duis consequat fugiat aute non voluptate. Consequat proident excepteur ad ad esse magna velit minim minim ut. Laborum minim non laborum excepteur mollit esse commodo cillum velit nisi officia ad minim adipisicing dolor.</p>
-<p>Cupidatat velit officia occaecat excepteur veniam elit ad. Nisi cupidatat reprehenderit consequat velit reprehenderit esse do qui id fugiat culpa ea mollit. Dolor nostrud mollit incididunt aliqua dolor amet tempor eiusmod cupidatat. Commodo esse laborum irure aliqua eu occaecat nisi.</p>
-<p>Ad consequat dolor dolore adipisicing commodo minim sit magna fugiat dolor nisi dolor deserunt mollit elit ea sunt. Ad elit et do dolore officia ea anim eu enim consectetur duis non proident ad id tempor. Sunt anim esse labore culpa do culpa et duis qui anim sint eu pariatur sint duis. In non minim consectetur sint quis in pariatur deserunt excepteur enim minim occaecat sit ad. Anim irure consequat ut qui incididunt non minim in est Lorem nisi in commodo velit mollit est.</p>
+
+<!-- <div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div> -->
+
+{% for post in paginator.posts %}
+  <div class='post'>
+    <div class='timestamp left text-center'>
+      <span class='month'>{{ post.date | date: "%h" }}</span>
+      <span class='date'>{{ post.date | date: "%d" }}</span>
+    </div>
+    <div class='info'>
+      <h3>
+        <a href='{{post.url}}'>{{ post.title }}</a>
+      </h3>
+      <p>
+        By
+        <span class='author'>{{post.author}}</span>
+      </p>
+    </div>
+    <div class='content excerpt'>
+      {{post.excerpt}}
+<div>
+      <a class='button' href='{{post.url}}'>Read more</a></div>
+    </div>
+  </div>
+{% endfor %}

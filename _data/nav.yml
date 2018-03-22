@@ -1,15 +1,15 @@
 - name: Product
-  path: /product/
+  path: product/
   section_id: features-benefits
-- name: Getting started
-  path: /getting-started/
-  section_id: getting-started
-- name: Help & Support
-  path: /support/
+- name: Help
+  path: support/
   section_id: support
-- name: About Us
-  path: /about/
+- name: About
+  path: about/
   section_id: about us
 - name: Blog
-  path: /blog/
+  path: blog/
   section_id: blog
+- name: Careers
+  path: careers/
+  section_id: careers
