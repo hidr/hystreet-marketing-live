@@ -64,18 +64,26 @@ members:
     name: "Dylan Kinsella"
     position: "Digital Hero"
 ---
-{% include awais-thoughts.html %}
+<div class="about-hero" style="background: none;">
+<div class="vid-container-1">
+	<div style="vid-container-2">
+		<video src="/images/about-bg.mp4" autoplay="" loop="" muted="" class="vid-about-us">			</video>
+	</div>
+  </div>
+<div class="hero-content">
+  <div class="row">
+          <div class="large-12 columns layout-text left" style="margin-top: 10%; color:= #ffffff;text-transform:= none;">
+		<h1 style="margin-top: 8px;color: #FFF;font-size: 329%;font-weight: bolder;">About us</h1>
+          </div>
 
-<div class='full page-content'>
-  <div class='row layout-text' style="margin: 50px auto;">
-        	<h1 style="margin: 0 auto;">About us</h1>
         </div>
+		</div>
 </div>
+
 <div class='full' style="display:inline-block;">
     <div class='row layout-text'>
-      <h2>Meet the Team</h2>
       <p>
-        We're a friendly bunch of estate agents, property experts, and tech wizards with a common goal of making it much easier for high street agents to fight back against online estate agents.
+        We're a friendly bunch of estate agents, property experts, and tech wizards with a common goal of making life much easier for high street agents.
       </p>
       {% for member in page.members %}
         <div class='medium-12 large-4 left'>
