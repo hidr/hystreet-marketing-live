@@ -10,8 +10,11 @@
     </noscript>
 
   <div class='contain-to-grid sticky fixed' data-sticky>
+
     <nav class='top-bar' data-topbar=''>
+      <a href="/"><img class="mobile-logo" src="/images/top-menu-logo.png" alt="logo for mobile"></a>
       <section class='top-bar-section'>
+
         <ul class="left layout-text">
           {% for item in site.data.nav %} {% if item.section_id == page.section_id %} {% assign active_class = "active" %} {% else %} {% assign active_class = "" %} {% endif %} {% if item.children %}
           <li class="has-dropdown {{active_class}}">
@@ -34,10 +37,7 @@
       <ul class='title-area'>
         <li class="floating">
           <p>
-            <a class="button" href="/register-now/" style="top: 20px; padding-top: 7px;
-    padding-left: 30px;
-    padding-bottom: 7px;
-    padding-right: 30px;">Try it for free</a>
+            <a class="button" href="/register-now/" style="top: 20px; padding-top: 7px;    padding-left: 30px;    padding-bottom: 7px;    padding-right: 30px;">Try it for free</a>
           </p>
         </li>
         <li class='toggle-topbar menu-icon'>
