@@ -220,6 +220,7 @@ text-align:  center;
         transition-duration: 500ms;
         max-height: 350px;
         float: left;
+        max-width: 23%;
       }
   .cta-arrow {
   text-align: left;
