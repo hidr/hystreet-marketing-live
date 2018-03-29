@@ -3245,7 +3245,7 @@ textarea {
   color: #333333;
   display: block;
   font-size: 1.125rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0 0;
   padding: 0.5rem;
   height: 2.5625rem;
   width: 100%;
@@ -6015,7 +6015,7 @@ h6 {
   font-weight: bold;
   font-style: normal;
   color: #333333;
-  margin-top: 0.2rem;
+  /* margin-top: 0.2rem; */
   margin-bottom: 1rem;
   line-height: 1.4;
 }
