@@ -261,6 +261,7 @@ text-align:  center;
   min-height: 500px;
   margin: 0 auto;
   display: inherit;
+  box-shadow: 5px 5px 20px #33333380;
 }
 .page-content .row .copy {
   flex-grow: 1;
@@ -270,6 +271,7 @@ text-align:  center;
 .page-content .button {
   margin:20px auto 0;
   display: table;
+  padding: 10px 20px;
 }
 
 .time-bubble {
