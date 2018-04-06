@@ -258,7 +258,7 @@ text-align:  center;
 }
 
 .page-content img {
-  min-height: 500px;
+  max-height: 600px;
   margin: 0 auto;
   display: inherit;
   box-shadow: 5px 5px 20px #33333380;
@@ -269,7 +269,7 @@ text-align:  center;
 }
 
 .page-content .button {
-  margin:20px auto 0;
+  margin:20px 0 0;
   display: table;
   padding: 10px 20px;
 }
@@ -453,7 +453,6 @@ width: 100%;
 h2,
 h3,
 h4 {
-  text-align: center;
 }
 
 .centered-text p {
@@ -474,7 +473,6 @@ h4 {
 h2,
 h3,
 h4 {
-  text-align: center;
 }
 
 .layout-text {
