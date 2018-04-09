@@ -28,9 +28,17 @@ section_id: blog
         <span class='author'>{{post.author}}</span>
       </p>
     </div>
-    <div class='content excerpt'>
-      {{post.excerpt}}<a href='{{post.url}}'> Read more...</a></div>
-<div>
+    <div class='content excerpt desktop-excerpt'>
+      {{post.excerpt | truncate: 360}}
+      <div>
+        <a href='{{post.url}}'> Read more...</a>
+      </div>
+    </div>
+    <div class='content excerpt mobile-excerpt'>
+      {{post.excerpt | truncate: 180}}
+      <div>
+        <a href='{{post.url}}'> Read more...</a>
+      </div>
     </div>
   </div>
 {% endfor %}
