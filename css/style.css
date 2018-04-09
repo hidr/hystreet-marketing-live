@@ -26,6 +26,9 @@ h4 {
   }
 
 @media screen and (max-width: 800px) {
+  .desktop-excerpt {
+    display: none;
+  }
 .page-content {
     display: inline-block;
   }
@@ -188,6 +191,9 @@ text-align:  center;
 
 
 @media screen and (min-width: 800px) {
+  .mobile-excerpt {
+    display: none;
+  }
   .cta-button {
     margin-left: 80px;
     padding-left: 30px;
