@@ -5596,15 +5596,16 @@ meta.foundation-mq-topbar {
   .top-bar-section {
     transition: none 0 0;
     left: 0 !important;
+    height: 100%;
   }
   .top-bar-section ul {
     width: 33%;
-    height: auto !important;
-    display: inline;
+    height: 100%;
+    display: flex;
   }
   .top-bar-section ul li {
     float: left;
-    height: -webkit-fill-available;
+    height: 100%;
   }
   .top-bar-section ul li .js-generated {
     display: none;
