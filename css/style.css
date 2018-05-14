@@ -260,7 +260,7 @@ text-align:  center;
 
 .page-content .row {
   display:flex !important;
-  margin: 200px auto;
+  margin: 100px auto;
 }
 
 .page-content img {
@@ -1582,7 +1582,11 @@ body {
   position: relative;
   background-size: cover;
   background-position: bottom;
-  height: 80%;
+  height: 80vh;
+}
+
+.f-topbar-fixed {
+  padding-top: 100px !important;
 }
 
 .hero .button {
