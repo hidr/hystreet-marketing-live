@@ -23,6 +23,14 @@ h1, h2, h3, h4 {
 }
 
 @media screen and (max-width: 800px) {
+  .footer .columns {
+    margin-bottom: 50px;
+  }
+  .page-content .row .copy {
+      flex-grow: 1;
+      padding-top: 0px !important;
+  }
+
   .desktop-excerpt {
     display: none;
   }
@@ -1229,7 +1237,18 @@ ul.info i:hover {
     margin-right: 20px;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  .post .info, .post .content {
+    text-align: center;
+  }
+  .post .left {
+    float: none !important;
+  }
+  .post .timestamp {
+    align-self: center;
+    margin: 10px auto;
+  }
+}
 @media only screen and (min-width: 600px) {
   .post .info, .post .content {
     margin-left: 110px;
@@ -3686,16 +3705,7 @@ body {
   padding: 50px 0;
 }
 
-.about-hero::before {
-  content: '';
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: -webkit-linear-gradient( rgba(15, 175, 212, 1), rgba(68, 132, 207, 0.2));
-  );
+
 }
 
 .hero::before {
@@ -4023,6 +4033,38 @@ body {
 .infusion-field {
   max-width: 75%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+.subscribe-field {
+  float: none;
+  margin-bottom: 20px
+}
+.subscribe-container {
+  text-align: center;
+  margin:0 auto;
+}
+.subscribe-title {
+  float:none;
+}
+.subscribe-button {
+  float: none;
+}
+}
+
+@media screen and (min-width: 600px) {
+.subscribe-field {
+  float: left;
+  margin-right: 20px;
+}
+.subscribe-title {
+  float:left;
+}
+.subscribe-button {
+  float: left;
+margin-right: 20px;
+margin-top: 2px;
+}
 }
 
 .infusion-recaptcha {
