@@ -2258,6 +2258,9 @@ h1, h2, h3, h4 {
     display: flex !important;
     justify-content: center;
   }
+  .top-bar .name {
+    display: none!important;
+  }
 }
 
 @media screen and (min-width: 800px) {
