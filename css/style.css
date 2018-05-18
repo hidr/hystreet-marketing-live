@@ -278,7 +278,7 @@ h1, h2, h3, h4 {
   }
   .time-bubble .stats p {
     display: inline-block;
-    width: 200px;
+    width: 100px;
     color: #FFF;
   }
   .time-line {
@@ -1345,7 +1345,6 @@ ul.info i:hover {
   }
 }
 
-/*
 .home-testimonial1:hover~.dropdown-content1 {
   display: block !important;
   animation-name: fadein;
@@ -1363,7 +1362,6 @@ ul.info i:hover {
 .home-testimonial4:hover~.dropdown-content4 {
   display: block !important;
 }
-*/
 
 .home-post .top-info {
   position: absolute;
@@ -3423,7 +3421,7 @@ ul.info i:hover {
     opacity: 100%
   }
 }
-/*
+
 .home-testimonial1:hover~.dropdown-content1 {
   display: block !important;
   animation-name: fadein;
@@ -3441,7 +3439,7 @@ ul.info i:hover {
 .home-testimonial4:hover~.dropdown-content4 {
   display: block !important;
 }
-*/
+
 .home-post .top-info {
   position: absolute;
   margin: 0 auto;
@@ -4198,9 +4196,9 @@ margin-top: 2px;
   .hp-screen-animation{
     position: absolute;
     display: flex;
-    left: 727px;
-    top: 318px;
-    width: 456px;
+    left: 695px;
+    top: 295px;
+    width: 519px;
 }
 }
 
