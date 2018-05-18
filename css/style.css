@@ -4185,3 +4185,43 @@ margin-top: 2px;
   outline: none;
   background-color: #0a8cab;
 }}
+
+@media screen and (max-width: 1920px) {
+  .hp-screen-animation{
+    display:none;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hp-screen-animation{
+    position: absolute;
+    display: flex;
+    left: 695px;
+    top: 295px;
+    width: 519px;
+}
+}
+
+.vs-play-button {
+
+}
+
+.vs-play-button a{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  background-image: url(/images/video-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vs-play-button a:hover{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  background-image: url(/images/video-icon-hover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
