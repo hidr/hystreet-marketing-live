@@ -86,7 +86,7 @@ h1, h2, h3, h4 {
   }
   .time-bubble .stats p {
     display: inline-block;
-    width: 100px;
+    width: 200px;
     color: #FFF;
   }
   .time-line {
@@ -4187,15 +4187,15 @@ margin-top: 2px;
 }}
 
 @media screen and (max-width: 1920px) {
-  .hp-screen-animation{
-    display:none;
+  .hp-screen-animation {
+    display: none !important;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .hp-screen-animation{
+  .hp-screen-animation {
     position: absolute;
-    display: flex;
+    display: flex !important;
     left: 695px;
     top: 295px;
     width: 519px;
