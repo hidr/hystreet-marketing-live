@@ -3687,6 +3687,15 @@ body {
   height: 80vh;
 }
 
+@media screen and (max-width: 800px) {
+  .hero {
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    height: 50vh;
+  }
+}
+
 .f-topbar-fixed {
   padding-top: 100px !important;
 }
