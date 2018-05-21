@@ -278,7 +278,7 @@ h1, h2, h3, h4 {
   }
   .time-bubble .stats p {
     display: inline-block;
-    width: 100px;
+    width: 200px;
     color: #FFF;
   }
   .time-line {
