@@ -223,6 +223,7 @@ h1, h2, h3, h4 {
     max-height: 350px;
     float: left;
     max-width: 23%;
+    border-radius: 5px;
   }
   .cta-arrow {
     text-align: left;
@@ -2911,6 +2912,7 @@ p i {
 .member img {
   margin-bottom: 25px;
   max-width: 251px;
+  border-radius: 5px;
 }
 
 .member h3 {
@@ -2988,6 +2990,7 @@ p.quote {
   font-style: italic;
   font-size: 18px;
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 967px) {
@@ -3399,6 +3402,7 @@ ul.info i:hover {
   /* flex-wrap: nowrap; */
   clear: left;
   Float: left;
+  border-radius: 5px;
 }
 
 .home-testimonial1 {
@@ -4213,7 +4217,8 @@ margin-top: 2px;
 }
 
 .vs-play-button {
-
+  display: flex;
+  align-items: center;
 }
 
 .vs-play-button a{
