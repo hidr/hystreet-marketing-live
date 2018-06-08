@@ -251,7 +251,7 @@ h1, h2, h3, h4 {
     max-height: 600px;
     margin: 0 auto;
     display: inherit;
-    /* box-shadow: 5px 5px 20px #33333380; */
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
   }
   .page-content .row .copy {
     flex-grow: 1;
@@ -267,7 +267,7 @@ h1, h2, h3, h4 {
     height: 300px;
     width: 300px;
     border-radius: 5px;
-    /* box-shadow: 0px 0px 50px #333333; */
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
   }
   .time-bubble .stats {
     text-align: center;
@@ -1650,6 +1650,7 @@ body {
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
 }
 
 .hero-content {
@@ -2506,6 +2507,7 @@ h1, h2, h3, h4 {
 
 .dark-grey {
   background: #333333;
+      box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
 }
 
 .pink-icons {
@@ -3065,7 +3067,7 @@ textarea {
 /*footer */
 
 .footer {
-  background: #232323;
+  background: linear-gradient( #232323, #000000);
   padding: 40px 0 20px;
 }
 
@@ -3334,8 +3336,10 @@ ul.info i:hover {
   }
   .post .excerpt img {
     margin: 50px auto !important;
+    border-radius: 5px;
     display: block !important;
     max-width: 500px;
+        box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
   }
 }
 
@@ -3581,6 +3585,7 @@ ul.info i:hover {
   .timestamp {
     width: 80px;
     border: 1px solid #0fafd4;
+    border-radius: 5px;
   }
 }
 
@@ -3590,7 +3595,10 @@ ul.info i:hover {
   border-bottom: 1px solid #0fafd4;
   display: block;
   padding: 5px 0;
+  border-radius: 5px 5px 0 0;
 }
+
+
 
 .timestamp .date {
   color: #0fafd4;
