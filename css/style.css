@@ -156,7 +156,7 @@ h1, h2, h3, h4 {
     background: #e63375;
     color: #fff;
     border-radius: 100px;
-    border-color: #FFF;
+    border-color: #e63375;
     /* box-shadow: 5px 5px 20px #33333380; */
     padding: 20px;
     border-width: 2px;
@@ -193,9 +193,9 @@ h1, h2, h3, h4 {
     padding: 10px 20px;
     background: #e63375;
     color: #fff;
-    border-radius: 100px;
-    border-color: #FFF;
-    /* box-shadow: 5px 5px 20px #33333380; */
+    border-radius: 5px;
+    border-color: #e63375;
+    box-shadow: 5px 5px 20px #33333380;
     border-width: 2px;
     border-style: solid;
     display: table;
@@ -266,7 +266,7 @@ h1, h2, h3, h4 {
     background: #343d4f;
     height: 300px;
     width: 300px;
-    border-radius: 500px;
+    border-radius: 5px;
     /* box-shadow: 0px 0px 50px #333333; */
   }
   .time-bubble .stats {
@@ -462,7 +462,7 @@ h1, h2, h3, h4 {
   background: #e63375;
   color: #fff;
   border-radius: 100px;
-  border-color: #FFF;
+  border-color: #e63375;
   /* box-shadow: 5px 5px 20px #33333380; */
   padding: 10px;
   border-width: 2px;
@@ -2241,7 +2241,7 @@ h1, h2, h3, h4 {
     background: #e63375;
     color: #fff;
     border-radius: 100px;
-    border-color: #FFF;
+    border-color: #e63375;
     /* box-shadow: 5px 5px 20px #33333380; */
     padding: 20px;
     border-width: 2px;
@@ -2282,7 +2282,7 @@ h1, h2, h3, h4 {
     background: #e63375;
     color: #fff;
     border-radius: 100px;
-    border-color: #FFF;
+    border-color: #e63375;
     /* box-shadow: 5px 5px 20px #33333380; */
     border-width: 2px;
     border-style: solid;
@@ -2549,8 +2549,8 @@ h1, h2, h3, h4 {
   /*      padding: 12px 16px 12px; */
   background: #e63375;
   color: #fff;
-  border-radius: 100px;
-  border-color: #FFF;
+  border-radius: 5px;
+  border-color: #e63375;
   /* box-shadow: 5px 5px 20px #33333380; */
   padding: 10px;
   border-width: 2px;
