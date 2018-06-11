@@ -2080,6 +2080,7 @@ p i {
 
 .call-to-action {
   display: flex;
+  align-items: center;
 }
 
 /*milestone */
@@ -3246,6 +3247,10 @@ body {
 .vs-play-button {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.vs-play-button img{
+  visibility: hidden;
 }
 
 .vs-play-button a{
@@ -3259,7 +3264,7 @@ body {
 }
 
 .vs-play-button a:hover{
-  height: 150px;
+  height: 250px;
   width: 150px;
   display: block;
   margin: 0 auto;
@@ -3532,17 +3537,17 @@ body {
       .cta-arrow {
         text-align: left;
         padding-left: 20px;
-        background: url(/images/border-left-blue.png) no-repeat;
+        background: none;
         background-size: 5.9%;
         background-position-x: 50px;
-        padding-left: 120px;
+        padding-left: auto;
         background-position-y: 18px;
       }
       .time-bubble {
         background: #343d4f;
         height: 300px;
         width: 300px;
-        border-radius: 500px;
+        border-radius: 5px;
         box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
         margin-bottom: 50px;
       }
@@ -3556,7 +3561,7 @@ body {
       }
       .time-bubble .stats p {
         display: inline-block;
-        width: 100px;
+        width: 200px;
         color: #FFF;
       }
       .time-line {
@@ -3838,11 +3843,11 @@ body {
       max-height: 600px;
       margin: 0 auto;
       display: inherit;
+      border-radius: 5px
       box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
     }
     .page-content .row .copy {
       flex-grow: 1;
-      padding-top: 5%;
     }
     .page-content .button {
       margin: 20px 0 0;
@@ -3916,7 +3921,7 @@ body {
       padding: 10px 20px;
       background: #e63375;
       color: #fff;
-      border-radius: 100px;
+      border-radius: 5px;
       border-color: #e63375;
       box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
       border-width: 2px;
@@ -3967,17 +3972,19 @@ body {
     }
     .page-content .row {
       display: flex !important;
-      margin: 100px auto;
     }
     .page-content img {
       max-height: 600px;
       margin: 0 auto;
       display: inherit;
+      border-radius: 5px;
       box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
     }
     .page-content .row .copy {
       flex-grow: 1;
-      padding-top: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     .page-content .button {
       margin: 20px 0 0;
