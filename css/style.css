@@ -3258,7 +3258,7 @@ body {
   width: 150px;
   display: block;
   margin: 0 auto;
-  background-image: url(/images/video-icon.png);
+  background-image: url(/images/video-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -3268,7 +3268,7 @@ body {
   width: 150px;
   display: block;
   margin: 0 auto;
-  background-image: url(/images/video-icon-hover.png);
+  background-image: url(/images/video-icon-hover.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
