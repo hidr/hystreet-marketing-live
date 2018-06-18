@@ -3978,6 +3978,7 @@ body {
       display: inherit;
       border-radius: 5px;
       box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+      max-width: 40vw;
     }
     .page-content .row .copy {
       flex-grow: 1;
