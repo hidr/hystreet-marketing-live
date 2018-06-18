@@ -3643,7 +3643,6 @@ body {
         position: relative;
         background-size: cover;
         background-position: bottom;
-        height: 50vh;
       }
     .post {
       margin: 60px auto;
@@ -4123,7 +4122,6 @@ body {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 1920px) {
   .hp-screen-animation {
     display: none !important;

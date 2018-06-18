@@ -5180,7 +5180,7 @@ meta.foundation-mq-topbar {
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
-  width: 100%;
+  /* width: 100%; */
   background: #0fafd4 none repeat scroll 0% 0%;
 }
 .contain-to-grid .top-bar {
@@ -5188,7 +5188,7 @@ meta.foundation-mq-topbar {
 }
 
 .fixed {
-  width: 100%;
+  width: 100vw;
   left: 0;
   position: fixed;
   top: 0;
@@ -5560,7 +5560,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 967px) {
+@media only screen and (min-width: 1030px) {
   .top-bar {
     background: #0fafd4;
     *zoom: 1;
