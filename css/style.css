@@ -3242,12 +3242,20 @@ body {
   background-color: #0a8cab;
 }}
 
-
+.play-button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+}
 
 .vs-play-button {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 50vw;
 }
 .vs-play-button img{
   visibility: hidden;
