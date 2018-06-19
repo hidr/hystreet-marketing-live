@@ -3321,8 +3321,29 @@ body {
   .page-content .button {
     display:none !important;
   }
+  .fixed-mob-button {
+  position: fixed;
+top: auto;
+bottom: 1.2vh;
+left: 2vw;
+width: 84vw;
+height: 6vh;
+padding-left: 120px;
+font-size: 20px;
+}
 }
 @media screen and (min-width: 500px) {
+  .fixed-mob-button {
+  position: fixed;
+top: auto;
+bottom: 1.2vh;
+left: 2vw;
+width: 84vw;
+height: 6vh;
+padding-left: 120px;
+font-size: 20px;
+display:none !important;
+}
   .hero::before {
       content: '';
       position: absolute;
