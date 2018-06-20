@@ -3365,7 +3365,7 @@ display:none !important;
     position: relative;
     background-size: cover;
     background-position: bottom;
-    height: 80vh;
+    height: 85vh;
     }
     .call-to-action {
     display: flex;
@@ -4245,9 +4245,9 @@ display:none !important;
   .hp-screen-animation {
     position: absolute;
     display: flex !important;
-    left: 695px;
-    top: 295px;
-    width: 519px;
+    left: 36.2vw;
+    top: 35vh;
+    width: 27.1vw;
   }
 }
 
