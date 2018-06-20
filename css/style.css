@@ -3330,6 +3330,7 @@ width: 84vw;
 height: 6vh;
 padding-left: 120px;
 font-size: 20px;
+z-index: 999;
 }
 }
 @media screen and (min-width: 500px) {
