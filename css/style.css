@@ -3326,11 +3326,12 @@ body {
 top: auto;
 bottom: 1.2vh;
 left: 2vw;
-width: 84vw;
+width: 75vw;
 height: 6vh;
 padding-left: 120px;
 font-size: 20px;
 z-index: 999;
+right: auto;
 }
 }
 @media screen and (min-width: 500px) {
