@@ -3323,29 +3323,29 @@ body {
   }
   .fixed-mob-button {
   position: fixed;
-top: auto;
-bottom: 1.2vh;
-left: 2vw;
-width: 75vw;
-height: 6vh;
-padding-left: 20%;
-font-size: 20px;
-z-index: 999;
-right: auto;
-}
+  top: auto;
+  bottom: 1.2vh;
+  left: 2vw;
+  width: 75vw;
+  height: 6vh;
+  padding-left: 20%;
+  font-size: 20px;
+  z-index: 999;
+  right: auto;
+  }
 }
 @media screen and (min-width: 500px) {
   .fixed-mob-button {
-  position: fixed;
-top: auto;
-bottom: 1.2vh;
-left: 2vw;
-width: 84vw;
-height: 6vh;
-padding-left: 120px;
-font-size: 20px;
-display:none !important;
-}
+    position: fixed;
+    top: auto;
+    bottom: 1.2vh;
+    left: 2vw;
+    width: 84vw;
+    height: 6vh;
+    padding-left: 120px;
+    font-size: 20px;
+    display:none !important;
+    }
   .hero::before {
       content: '';
       position: absolute;
@@ -4251,6 +4251,52 @@ display:none !important;
   }
 }
 
+/* free trial sticker */
+.trial-sticker {
+  z-index: 98;
+    background: #343d4f;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 69px;
+    left: 6vw;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.trial-sticker p {
+  transform: rotate(-20deg);
+    text-align: center;
+    line-height: 1;
+    width: 75%;
+}
+
+@media screen and (min-width: 1660px){
+  .trial-sticker p {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 1660px){
+  .trial-sticker p {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1300px){
+  .trial-sticker p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1000px){
+  .trial-sticker {
+    display: none;
+  }
+}
 .spinner {
   margin: 0 auto;
   position: absolute;
