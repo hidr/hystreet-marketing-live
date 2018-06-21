@@ -4252,6 +4252,22 @@ body {
 }
 
 /* free trial sticker */
+
+.trial-banner {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  z-index: 98;
+  background: #343d4f;
+  color: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+  margin: 20px 0;
+}
+
+.trial-banner h3 {
+  margin-top: 1rem;
+}
+
 .trial-sticker {
   z-index: 98;
     background: #343d4f;
@@ -4325,6 +4341,7 @@ body {
 
 .iframe-container {
   position:relative;
+  margin-top: 30px;
 }
 
 @keyframes spin {
