@@ -4284,6 +4284,7 @@ body {
     flex-direction: column;
     color: #FFF;
     text-transform: uppercase;
+    border: #FFF solid;
 }
 
 .trial-sticker p {
