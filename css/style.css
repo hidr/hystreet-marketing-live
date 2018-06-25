@@ -4285,6 +4285,7 @@ body {
     color: #FFF;
     text-transform: uppercase;
     border: #FFF solid;
+    display: none;
 }
 
 .trial-sticker p {
@@ -4296,7 +4297,7 @@ body {
 
 @media screen and (min-width: 1660px){
   .trial-sticker p {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 1660px){
