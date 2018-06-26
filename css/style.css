@@ -3558,12 +3558,11 @@ body {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        z-index: 2;
       }
 
       nav.fixed .mobile-logo-link {
-        position: absolute;
         top: 50px;
-        z-index: 2;
       }
       .support-slip {
         height: fit-content;
@@ -4356,4 +4355,8 @@ body {
    to {
     transform: rotate(360deg);
   }
+}
+
+.row img {
+  max-width: 100%;
 }
