@@ -3790,8 +3790,8 @@ body {
       border: 1px solid #0fafd4;
       margin-right: 20px;
     }
-    .post .info, .post .content {
-      text-align: center;
+    .post .content img {
+      max-width: 100%;
     }
     .post .left {
       float: none !important;
