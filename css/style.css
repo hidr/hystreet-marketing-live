@@ -1220,8 +1220,6 @@ body {
   padding-top: 100px !important;
 }
 
-.hero .button {}
-
 .about-hero {
   position: relative;
   background: none;
@@ -2851,8 +2849,6 @@ body {
   padding-top: 100px !important;
 }
 
-.hero .button {}
-
 .about-hero {
   position: relative;
   background: none;
@@ -3554,11 +3550,20 @@ body {
         display: none;
       }
       .mobile-logo {
-        max-width: 150px;
-        position: absolute;
         margin-left: 20px;
-        margin-top: 20px;
         z-index: 1;
+        max-height: 40px;
+      }
+      .mobile-logo-link {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      nav.fixed .mobile-logo-link {
+        position: absolute;
+        top: 50px;
+        z-index: 2;
       }
       .support-slip {
         height: fit-content;
@@ -3593,9 +3598,7 @@ body {
       }
       .hero .button {
         margin: 0 auto 10px;
-        display: block;
         text-align: center;
-        max-width: 211px
       }
       .desktop-excerpt {
         display: none;
@@ -3747,9 +3750,8 @@ body {
       }
       .hero .button {
         margin: 0 auto 10px;
-        display: block;
+        display: inline-block;
         text-align: center;
-        max-width: 211px
       }
       .hero {
         position: relative;
