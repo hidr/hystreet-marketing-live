@@ -4257,7 +4257,7 @@ body {
 /* free trial sticker */
 
 .trial-banner {
-  width: 100vw;
+  width: 100%;
   position: absolute;
   left: 0;
   z-index: 98;
@@ -4269,6 +4269,7 @@ body {
 
 .trial-banner h3 {
   margin-top: 1rem;
+  padding: 0 10px;
 }
 
 .trial-sticker {
@@ -4346,7 +4347,7 @@ body {
 
 .iframe-container {
   position:relative;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 @keyframes spin {
