@@ -1753,7 +1753,7 @@ h1, h2, h3, h4 {
 
 .centered-text-actual h1, h2, h3, h4 {}
 
-.layout-text {
+.layout-text, .text-center {
   text-align: center;
 }
 
@@ -3379,6 +3379,12 @@ body {
     margin: 200px 0;
   }
   }
+
+  .post {
+    margin: 60px auto;
+    max-width: 75%;
+  }
+
 @media screen and (max-width: 1026px) {
   .client-logos {
     background-image: url(../images/hero-hex-bg-trans-smaller-portrait.png);
@@ -3759,8 +3765,7 @@ body {
         background-position: bottom;
       }
     .post {
-      margin: 60px auto;
-      max-width: 75%;
+      max-width: 100%;
     }
     .post img {
       margin: 0 auto !important;
@@ -3800,10 +3805,6 @@ body {
       align-self: center;
       margin: 10px auto;
       border-radius: 5px;
-    }
-    .post {
-      margin: 100px auto;
-      max-width: 75%;
     }
     .post img {
       margin: 0 auto !important;

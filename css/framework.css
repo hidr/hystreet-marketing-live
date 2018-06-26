@@ -5341,6 +5341,12 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li:last-child {
   padding-bottom: 30px;
 }
+
+@media only screen and (min-width: 1030px) {
+  .top-bar-section ul li:last-child {
+    padding-bottom: 0;
+  }
+}
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
   border-top: solid 1px gray;
