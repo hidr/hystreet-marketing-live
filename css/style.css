@@ -3265,6 +3265,7 @@ body {
   background-image: url(/images/video-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
+  outline: none;
 }
 
 .vs-play-button a:hover{
