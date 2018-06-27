@@ -3227,7 +3227,7 @@ body {
   color: #fff;
   outline: none;
   background-color: #0a8cab;
-}}
+}
 
 .play-button {
   align-items: center;
@@ -3248,25 +3248,23 @@ body {
   visibility: hidden;
 }
 
-.vs-play-button a{
+.vs-play-button a {
   height: 250px;
   width: 150px;
   display: block;
   margin: 0 auto;
-  background-image: url(/images/video-icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  color: #e63375;
   outline: none;
 }
 
+.vs-play-button svg {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .vs-play-button a:hover{
-  height: 250px;
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-  background-image: url(/images/video-icon-hover.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  color: #97224d;
 }
 
 @media screen and (max-width: 500px) {
@@ -3291,10 +3289,10 @@ body {
   .fixed-mob-button {
   position: fixed;
   top: auto;
-  bottom: 1.2vh;
+  bottom: 12px; /* puts the button inline with the support button */
   left: 2vw;
   width: 75vw;
-  height: 6vh;
+  line-height: 27px;
   padding-left: 20%;
   font-size: 20px;
   z-index: 999;
@@ -3305,10 +3303,10 @@ body {
   .fixed-mob-button {
     position: fixed;
     top: auto;
-    bottom: 1.2vh;
+    bottom: calc(24px + .75rem); /* puts the button inline with the support button */
     left: 2vw;
     width: 84vw;
-    height: 6vh;
+    line-height: 52px;
     padding-left: 120px;
     font-size: 20px;
     display:none !important;
