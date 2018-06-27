@@ -3932,11 +3932,19 @@ body {
       padding: 10px 20px;
     }
     .time-bubble {
+      margin-left: 10px;
+      margin-right: 10px;
       background: #343d4f;
       height: 300px;
       width: 300px;
       border-radius: 5px;
       box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+    }
+    .time-bubble:first-child {
+      margin-left: 0;
+    }
+    .time-bubble:last-child {
+      margin-right: 0;
     }
     .time-bubble .stats {
       text-align: center;
