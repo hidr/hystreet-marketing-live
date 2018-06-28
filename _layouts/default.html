@@ -6,56 +6,12 @@
 <body data-sticky-container class="f-topbar-fixed">
   <script type="text/javascript" src="http://www.qlzn6i1l.com/js/126936.js"></script>
   <noscript>
-      <img alt="" src="http://www.qlzn6i1l.com/126936.png" style="display:none;" data-proofer-ignore />
-    </noscript>
+    <img alt="" src="http://www.qlzn6i1l.com/126936.png" style="display:none;" data-proofer-ignore />
+  </noscript>
 
-  <div class='contain-to-grid sticky fixed' data-sticky>
+  {% include header/top-bar.html %}
 
-    <nav class='top-bar' data-topbar=''>
-      <a href="/"><img class="mobile-logo" src="/images/top-menu-logo.png" alt="logo for mobile"></a>
-      <section class='top-bar-section'>
-
-        <ul class="left layout-text">
-          {% for item in site.data.nav %} {% if item.section_id == page.section_id %} {% assign active_class = "active" %} {% else %} {% assign active_class = "" %} {% endif %} {% if item.children %}
-          <li class="has-dropdown {{active_class}}">
-            <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
-            <ul class='dropdown'>
-              {% for child in item.children %}
-              <li>
-                <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          </li>
-          {% else %}
-          <li class="{{active_class}}">
-            <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
-          </li>
-          {% endif %} {% endfor %}
-        </ul>
-      </section>
-      <ul class='title-area'>
-        <li class="floating">
-          <p style="z-index: 1; position: relative;">
-            <a class="button" href="/book-demo/" style="top: 30px; padding-top: 10px;    padding-left: 20px;    padding-bottom: 10px;    padding-right: 20px;">Book a demo</a>
-          </p>
-        </li>
-        <li class='toggle-topbar menu-icon'>
-          <a href='#'>Menu</a>
-        </li>
-      </ul>
-      <a href="/">
-      <ul class='title-area'>
-        <li class='name'>
-          <span style="    z-index:  1;    position: relative;">
-                <img class="logo-image" src='{{site.url}}/images/top-menu-logo.png' alt="Hystreet Logo">
-            </span>
-        </li>
-      </ul>
-      </a>
-    </nav>
-  </div>
-        <a href="/book-demo/" class="fixed-mob-button button">Book a demo</a>
+  <a href="/book-demo/" class="fixed-mob-button button">Book a demo</a>
   {{ content }} {% include page-footer.html %}
 
 </body>

@@ -25,8 +25,6 @@ layout: default
         <div class="infusion-field subscribe-field">
           <input class="infusion-field-input" id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" style="color: #FFF" />
         </div>
-        <div>
-        </div>
         <div class="infusion-submit subscribe-button" >
           <button style="margin:0 auto; display: block;     padding: 10px 20px;" class="button" type="submit">Sign up</button>
         </div>
@@ -34,24 +32,22 @@ layout: default
       <script type="text/javascript" src="https://ge395.infusionsoft.com/app/webTracking/getTrackingCode"></script>
       <script type="text/javascript" src="https://ge395.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.69.0.37-hf-201801311540"></script>
       <script type="text/javascript" src="https://ge395.infusionsoft.com/app/timezone/timezoneInputJs?xid=3a2068882de6cd4ab24e281e9c53eedf"></script>
-      <div class='large-12 columns'>
-      </div>
     </div>
   </div>
 </div>
 <div class="full">
   <div class="row">
-    {{ content }} {% if paginator %}
-    <div class="pager">
-      {% if paginator.next_page %} {% if paginator.next_page == 1 %}
-      <a href="/blog" class="older">Older Entries</a> {% else %}
-      <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries</a> {% endif %} {% else %}
-      <span class="older">Older Entries</span> {% endif %} {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-      <a href="/blog" class="newer">Newer Entries</a> {% else %}
-      <a href="/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a> {% endif %} {% else %}
-      <span class="newer">Newer Entries</span> {% endif %}
-    </div>
+    {{ content }}
+    {% if paginator %}
+      <div class="pager">
+        {% if paginator.next_page %} {% if paginator.next_page == 1 %}
+        <a href="/blog" class="older">Older Entries</a> {% else %}
+        <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries</a> {% endif %} {% else %}
+        <span class="older">Older Entries</span> {% endif %} {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+        <a href="/blog" class="newer">Newer Entries</a> {% else %}
+        <a href="/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a> {% endif %} {% else %}
+        <span class="newer">Newer Entries</span> {% endif %}
+      </div>
     {% endif %}
-
   </div>
 </div>
