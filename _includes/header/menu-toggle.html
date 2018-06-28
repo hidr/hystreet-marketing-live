@@ -1,0 +1,15 @@
+<input id="menu-toggle" type="checkbox" />
+<div class="mobile-menu-toggle">
+  <label class="mobile-menu-toggle__label" for="menu-toggle">
+    <div class="mobile-menu-open-label">
+      <span class="mobile-menu-toggle__text">Menu</span>
+      {% include icons/icon-hamburger.html %}
+    </div>
+    <div class="mobile-menu-close-label">
+      {% include icons/icon-close.html %}
+    </div>
+  </label>
+</div>
+<nav class="mobile-menu">
+  {% include header/main-menu.html %}
+</nav>

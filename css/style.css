@@ -140,20 +140,6 @@ h1, h2, h3, h4 {
   color: white;
 }
 
-.button {
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  /*      padding: 12px 16px 12px; */
-  background: #e63375;
-  color: #fff;
-  border-radius: 100px;
-  border-color: #e63375;
-box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
-  padding: 10px;
-  border-width: 2px;
-  border-style: solid;
-}
-
 .signup-button {
   text-transform: uppercase;
   font-size: 14px;
@@ -1767,15 +1753,19 @@ h1, h2, h3, h4 {
 .button {
   text-transform: uppercase;
   font-size: 0.9rem;
-  /*      padding: 12px 16px 12px; */
   background: #e63375;
   color: #fff;
   border-radius: 5px;
   border-color: #e63375;
-box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
   padding: 10px;
   border-width: 2px;
   border-style: solid;
+}
+
+.button--large {
+  padding: 15px 18px;
+  padding-bottom: 13px;
 }
 
 .signup-button {
@@ -4329,4 +4319,169 @@ body {
 
 .row img {
   max-width: 100%;
+}
+
+
+
+
+
+
+/* New header */
+.top-header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  background: #0fafd4;
+}
+
+.top-header .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+}
+@media only screen and (max-width: 1026px) {
+  .top-header .logo {
+    position: relative;
+    top: initial;
+    left: initial;
+    transform: initial;
+    height: 40px;
+  }
+}
+
+.top-header a {
+  color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 30px;
+}
+
+.container-1728 {
+  max-width: 1728px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 1026px) {
+  .header-menu {
+    display: none;
+  }
+}
+
+.header-menu a {
+  display: block;
+  margin: 0 15px;
+  line-height: 100px;
+}
+
+.header-menu a:hover {
+  color: #666666;
+}
+
+.header-menu a:first-child {
+  margin-left: 0;
+}
+
+.header-menu a:last-child {
+  margin-right: 0;
+}
+
+.mobile-menu-toggle {
+  display: none;
+}
+@media only screen and (max-width: 1026px) {
+  .mobile-menu-toggle {
+    display: block;
+    position: relative;
+  }
+}
+
+#menu-toggle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+.mobile-menu-toggle__label {
+  display: flex !important;
+  align-items: center;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  line-height: 100px;
+  color: #ffffff;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.mobile-menu-toggle__text {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1026px) {
+  .header-book-button {
+    display: none;
+  }
+}
+
+.mobile-menu {
+  display: none;
+  width: 100vw;
+  height: calc(100vh - 100px);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #0fafd4;
+  text-align: center;
+}
+
+#menu-toggle:checked ~ .mobile-menu {
+  display: block;
+}
+
+.mobile-menu-close-label {
+  display: none;
+  line-height: 1;
+}
+
+#menu-toggle:checked ~ .mobile-menu-toggle .mobile-menu-open-label {
+  display: none;
+}
+
+#menu-toggle:checked ~ .mobile-menu-toggle .mobile-menu-close-label {
+  display: block;
+}
+
+.mobile-menu-close-label svg {
+  width: 20px;
+  height: 20px;
+  margin-top: -3px;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 15px 30px;
+}
+
+.mobile-menu a:last-child {
+  margin-bottom: 30px;
+}
+
+.mobile-menu a:hover {
+  color: #666666;
 }
