@@ -3276,31 +3276,27 @@ body {
   .page-content .button {
     display:none !important;
   }
-  .fixed-mob-button {
+}
+
+.fixed-mob-button {
   position: fixed;
   top: auto;
   bottom: 12px; /* puts the button inline with the support button */
-  left: 2vw;
-  width: 75vw;
+  left: 3.2vw;
+  right: 3.2vw;
   line-height: 27px;
-  padding-left: 20%;
   font-size: 20px;
+  text-align: center;
   z-index: 999;
-  right: auto;
+}
+
+@media screen and (min-width: 1026px) {
+  .fixed-mob-button {
+    display:none !important;
   }
 }
+
 @media screen and (min-width: 500px) {
-  .fixed-mob-button {
-    position: fixed;
-    top: auto;
-    bottom: calc(24px + .75rem); /* puts the button inline with the support button */
-    left: 2vw;
-    width: 84vw;
-    line-height: 52px;
-    padding-left: 120px;
-    font-size: 20px;
-    display:none !important;
-    }
     .call-to-action {
     display: flex;
     align-items: center;
