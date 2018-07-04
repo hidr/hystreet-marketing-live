@@ -1,0 +1,190 @@
+# Note: Make sure to update data for both desktop and mobile data below
+# To display check on desktop, use true as the featurevalue
+# To display a cross, use false
+
+categories: # FOR DESKTOP
+  - basics:
+    name: Basics
+    features:
+      - branches:
+        name: Branches
+        tiers:
+          - small:
+            featurevalue: 1 - 3
+          - medium:
+            featurevalue: 4 - 20
+          - large:
+            featurevalue: 21+
+      - users:
+        name: Users
+        tiers:
+          - small:
+            featurevalue: Unlimited users
+          - medium:
+            featurevalue: Unlimited users
+          - large:
+            featurevalue: Unlimited users
+      - knowledgebase:
+        name: Knowledge base
+        tiers:
+          - small:
+            featurevalue: true
+          - medium:
+            featurevalue: true
+          - large:
+            featurevalue: true
+      - listings:
+        name: Listing limit
+        tiers:
+          - small:
+            featurevalue: 150*
+          - medium:
+            featurevalue: 1000*
+          - large:
+            featurevalue: Unlimited*
+      - marketing:
+        name: Marketing materials
+        tiers:
+          - small:
+            featurevalue: false
+          - medium:
+            featurevalue: true
+          - large:
+            featurevalue: true
+      - custom-marketing:
+        name: Custom marketing materials
+        tiers:
+          - small:
+            featurevalue: false
+          - medium:
+            featurevalue: false
+          - large:
+            featurevalue: true
+      - dedicated-support-manager:
+        name: Dedicated support manager
+        tiers:
+          - small:
+            featurevalue: false
+          - medium:
+            featurevalue: false
+          - large:
+            featurevalue: true
+      - custom-domains:
+        name: Custom domains
+        tiers:
+          - small:
+            featurevalue: false
+          - medium:
+            featurevalue: false
+          - large:
+            featurevalue: true
+      - staff-white-label:
+        name: Staff site whitelabelling
+        tiers:
+          - small:
+            featurevalue: false
+          - medium:
+            featurevalue: false
+          - large:
+            featurevalue: true
+      - online-appointment-booking:
+        name: Online appointment booking
+        tiers:
+          - small:
+            featurevalue: true
+          - medium:
+            featurevalue: true
+          - large:
+            featurevalue: true
+      - automated-id-checks:
+        name: Automated ID checks
+        tiers:
+          - small:
+            featurevalue: true
+          - medium:
+            featurevalue: true
+          - large:
+            featurevalue: true
+      - automatic-feedback-chasing:
+        name: Automatic feedback chasing
+        tiers:
+          - small:
+            featurevalue: true
+          - medium:
+            featurevalue: true
+          - large:
+            featurevalue: true
+      - online-listing-approval:
+        name: Online listing approval
+        tiers:
+          - small:
+            featurevalue: true
+          - medium:
+            featurevalue: true
+          - large:
+            featurevalue: true
+      - online-payments:
+        name: Online payments
+        tiers:
+          - small:
+            featurevalue: true
+          - medium:
+            featurevalue: true
+          - large:
+            featurevalue: true
+      - online-offer-negotiation:
+        name: Online offer negotiation
+        tiers:
+          - small:
+            featurevalue: true
+          - medium:
+            featurevalue: true
+          - large:
+            featurevalue: true
+
+tiers: # FOR MOBILE
+  - small:
+    name: Small
+    uiname: small
+    price: 149
+    categories:
+      - basics:
+        name: Basics
+        uiname: basics
+        features:
+          - branches:
+            name: 1 - 3 branches
+          - users:
+            name: Unlimited users
+          - knowledgebase:
+            name: Knowledge base included
+  - medium:
+    name: Medium
+    uiname: medium
+    price: 124
+    categories:
+      - basics:
+        name: Basics
+        uiname: basics
+        features:
+          - branches:
+            name: 4 - 20 branches
+          - users:
+            name: Unlimited users
+          - knowledgebase:
+            name: Knowledge base included
+  - large:
+    name: Large
+    uiname: large
+    price: 99
+    categories:
+      - basics:
+        name: Basics
+        uiname: basics
+        features:
+          - branches:
+            name: 21+ branches
+          - users:
+            name: Unlimited users
+          - knowledgebase:
+            name: Knowledge base included

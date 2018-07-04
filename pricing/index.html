@@ -1,0 +1,115 @@
+---
+layout: default
+title: Pricing | Estate Agent Software | Hystreet
+description: Choose the right pricing plan for your business.
+---
+
+{% comment %} NOTE: when updating, make sure to check mobile data is updated {% endcomment %}
+
+<div class='full'>
+  <div class="row layout-text">
+    <h1>Pricing</h1>
+    <p>Whether you're just starting out, taking your estate agency to the next level, or planning the next move for your nationwide business, we've got pricing plans that fit an agency of any size. As your business grows, Hystreet will grow with you.</p>
+    <p>Remember, you will never have to go it alone. Our support team will always be here to help you get the most out of your Hystreet platform, however big your business is.</p>
+  </div>
+</div>
+<div class='full'>
+  <div class="row">
+    <div class="pricing-table"> {% comment %} Pricing table {% endcomment %}
+      <header class="pricing-header"> {% comment %} Header {% endcomment %}
+        <div class="pricing-col pricing-col-info"></div>
+        {% for tier in site.data.pricing.tiers %}
+          <div class="pricing-col pricing-col-item">
+            <div class="pricing-tier">
+              <h2 class="pricing-tier__name">{{ tier.name }}</h2>
+              <div class="pricing-price">
+                <h3>
+                  <div class="pricing-price__number">
+                    <span class="pricing-price__currency">&pound;</span>
+                    {{ tier.price }}
+                  </div>
+                  <p class="pricing-vat">+VAT</p>
+                  <p class="pricing-duration">per month per branch</p>
+                </h3>
+              </div>
+              <a class="button" href="/book-demo">Book a demo</a>
+            </div>
+          </div>
+        {% endfor %}
+      </header> {% comment %} END Header {% endcomment %}
+
+      {% for category in site.data.pricing.categories %}
+        <div class="pricing-row pricing-row-heading">
+          <div class="pricing-col pricing-col-info">
+            <h4>{{ category.name }}</h4>
+          </div>
+          <div class="pricing-col pricing-col-item"></div>
+          <div class="pricing-col pricing-col-item"></div>
+          <div class="pricing-col pricing-col-item"></div>
+        </div>
+
+        {% for feature in category.features %}
+          <div class="pricing-row">
+            <div class="pricing-col pricing-col-info">
+              <p>{{ feature.name }}</p>
+            </div>
+            {% for tier in feature.tiers %}
+              <div class="pricing-col pricing-col-item">
+                {% if tier.featurevalue == true %}
+                  {% include icons/icon-check.html %}
+                {% elsif tier.featurevalue == false %}
+                  {% include icons/icon-cross.html %}
+                {% else %}
+                  <p>{{ tier.featurevalue }}</p>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      {% endfor %}
+    </div> {% comment %} END Pricing table {% endcomment %}
+
+    <div class="pricing-table--mobile">
+      {% for tier in site.data.pricing.tiers %}
+        <section class="pricing-tier-section">
+          <div class="pricing-tier">
+              <h2 class="pricing-tier__name">{{ tier.name }}</h2>
+              <div class="pricing-price">
+                <h3>
+                  <div class="pricing-price__number">
+                    <span class="pricing-price__currency">&pound;</span>
+                    {{ tier.price }}
+                  </div>
+                  <p class="pricing-vat">+VAT</p>
+                  <p class="pricing-duration">per month per branch</p>
+                </h3>
+              </div>
+              <a class="button" href="/book-demo">Book a demo</a>
+            </div>
+
+            {% for category in tier.categories %}
+              <div class="pricing-toggle">
+                <input type="checkbox" id="pricing-{{ tier.uiname }}-{{ category.uiname }}" />
+                <label for="pricing-{{ tier.uiname }}-{{ category.uiname }}" class="pricing-toggle__header">
+                  <span>{{ category.name }}</span>
+                  <div class="pricing-toggle__icon">
+                    {% include icons/icon-toggle-open.html %}
+                    {% include icons/icon-toggle-close.html %}
+                  </div>
+                </label>
+                <div class="pricing-toggle__content">
+                  <ul>
+                    {% for feature in category.features %}
+                      <li>{{ feature.name }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            {% endfor %}
+        </section>
+      {% endfor %}
+    </div>
+
+    <p style="margin-top: 30px;max-width: 1024px;margin-left: auto; margin-right: auto;font-style: italic;">* 50 live listings per branch.</p>
+  </div>
+</div>
