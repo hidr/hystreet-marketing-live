@@ -24,21 +24,21 @@ description: Choose the right pricing plan for your business.
               <h2 class="pricing-tier__name">{{ tier.name }}</h2>
               <div class="pricing-price">
                 {% if tier.price == "Enquire" %}
-                  <h3>
+                  <div class="pricing-price__container">
                     <div class="pricing-price__number">
                       <span class="pricing-price__currency">&pound;</span>
                       <span title="Price on application">POA</span>
                     </div>
-                  </h3>
+                  </div>
                 {% else %}
-                  <h3>
+                  <div class="pricing-price__container">
                     <div class="pricing-price__number">
                       <span class="pricing-price__currency">&pound;</span>
-                      {{ tier.price }}
+                      <span>{{ tier.price }}</span>
                     </div>
                     <p class="pricing-vat">+VAT</p>
                     <p class="pricing-duration">per month per branch</p>
-                  </h3>
+                  </div>
                 {% endif %}
               </div>
               {% if tier.price == "Enquire" %}
@@ -89,21 +89,21 @@ description: Choose the right pricing plan for your business.
             <h2 class="pricing-tier__name">{{ tier.name }}</h2>
             <div class="pricing-price">
               {% if tier.price == "Enquire" %}
-                <h3>
+                <div class="pricing-price__container">
                   <div class="pricing-price__number">
                     <span class="pricing-price__currency">&pound;</span>
                     <span title="Price on application">POA</span>
                   </div>
-                </h3>
+                </div>
               {% else %}
-                <h3>
+                <div class="pricing-price__container">
                   <div class="pricing-price__number">
                     <span class="pricing-price__currency">&pound;</span>
                     {{ tier.price }}
                   </div>
                   <p class="pricing-vat">+VAT</p>
                   <p class="pricing-duration">per month per branch</p>
-                </h3>
+                </div>
               {% endif %}
             </div>
             {% if tier.price == "Enquire" %}
