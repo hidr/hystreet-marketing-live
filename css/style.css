@@ -4627,40 +4627,28 @@ body {
 }
 
 /* Mobile styles */
-.pricing-toggle {
-  position: relative;
+.pricing-tier__content {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
-.pricing-toggle > input[type="checkbox"] {
-  position: absolute;
-  height: 1px;
-  width: 1px;
-  opacity: 0;
+.pricing-tier__content ul {
+  margin-left: 0;
 }
 
-.pricing-toggle__header {
-  display: flex !important;
+.pricing-tier__content li {
+  padding: 15px 0;
+  list-style: none;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 15px;
-  margin: 0 !important;
-  font-weight: bold;
-  font-size: 18px;
-  user-select: none;
-  transition: all 0.2s;
+  justify-content: center;
 }
 
-.pricing-toggle > input[type="checkbox"]:not(:checked) ~ .pricing-toggle__content {
-  display: none;
-}
-
-.pricing-toggle__content {
-  padding: 15px;
-}
-
-.pricing-toggle__content ul:only-child {
-  margin-bottom: 0;
+.pricing-tier__content li .icon-check {
+  width: 20px;
+  height: 20px;
+  color: #0fafd4;
+  margin-right: 10px;
 }
 
 .pricing-tier-section {

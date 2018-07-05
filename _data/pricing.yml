@@ -147,44 +147,87 @@ tiers: # FOR MOBILE
     name: Small
     uiname: small
     price: 149
-    categories:
-      - basics:
-        name: Basics
-        uiname: basics
-        features:
-          - branches:
-            name: 1 - 3 branches
-          - users:
-            name: Unlimited users
-          - knowledgebase:
-            name: Knowledge base included
+    features:
+      - branches:
+        name: 1 - 3 branches
+      - users:
+        name: Unlimited users
+      - knowledgebase:
+        name: Knowledge base included
+      - listings:
+        name: 150 listings*
+      - online-appointment-booking:
+        name: Online appointment booking
+      - automated-id-checks:
+        name: Automated ID checks
+      - automatic-feedback-chasing:
+        name: Automatic feedback chasing
+      - online-listing-approval:
+        name: Online listing approval
+      - online-payments:
+        name: Online payments
+      - online-offer-negotiation:
+        name: Online offer negotiation
   - medium:
     name: Medium
     uiname: medium
     price: 124
-    categories:
-      - basics:
-        name: Basics
-        uiname: basics
-        features:
-          - branches:
-            name: 4 - 20 branches
-          - users:
-            name: Unlimited users
-          - knowledgebase:
-            name: Knowledge base included
+    features:
+      - branches:
+        name: 4 - 20 branches
+      - users:
+        name: Unlimited users
+      - knowledgebase:
+        name: Knowledge base included
+      - listings:
+        name: 1000 listings*
+      - marketing:
+        name: Marketing materials
+      - online-appointment-booking:
+        name: Online appointment booking
+      - automated-id-checks:
+        name: Automated ID checks
+      - automatic-feedback-chasing:
+        name: Automatic feedback chasing
+      - online-listing-approval:
+        name: Online listing approval
+      - online-payments:
+        name: Online payments
+      - online-offer-negotiation:
+        name: Online offer negotiation
+
   - large:
     name: Large
     uiname: large
     price: 99
-    categories:
-      - basics:
-        name: Basics
-        uiname: basics
-        features:
-          - branches:
-            name: 21+ branches
-          - users:
-            name: Unlimited users
-          - knowledgebase:
-            name: Knowledge base included
+    features:
+      - branches:
+        name: 21+ branches
+      - users:
+        name: Unlimited users
+      - knowledgebase:
+        name: Knowledge base included
+      - listings:
+        name: Unlimited listings*
+      - marketing:
+        name: Marketing materials
+      - custom-marketing:
+        name: Custom marketing materials
+      - dedicated-support-manager:
+        name: Dedicated support manager
+      - custom-domains:
+        name: Custom domains
+      - staff-white-label:
+        name: White labelled staff area
+      - online-appointment-booking:
+        name: Online appointment booking
+      - automated-id-checks:
+        name: Automated ID checks
+      - automatic-feedback-chasing:
+        name: Automatic feedback chasing
+      - online-listing-approval:
+        name: Online listing approval
+      - online-payments:
+        name: Online payments
+      - online-offer-negotiation:
+        name: Online offer negotiation

@@ -73,39 +73,27 @@ description: Choose the right pricing plan for your business.
       {% for tier in site.data.pricing.tiers %}
         <section class="pricing-tier-section">
           <div class="pricing-tier">
-              <h2 class="pricing-tier__name">{{ tier.name }}</h2>
-              <div class="pricing-price">
-                <h3>
-                  <div class="pricing-price__number">
-                    <span class="pricing-price__currency">&pound;</span>
-                    {{ tier.price }}
-                  </div>
-                  <p class="pricing-vat">+VAT</p>
-                  <p class="pricing-duration">per month per branch</p>
-                </h3>
-              </div>
-              <a class="button" href="/book-demo">Book a demo</a>
-            </div>
-
-            {% for category in tier.categories %}
-              <div class="pricing-toggle">
-                <input type="checkbox" id="pricing-{{ tier.uiname }}-{{ category.uiname }}" />
-                <label for="pricing-{{ tier.uiname }}-{{ category.uiname }}" class="pricing-toggle__header">
-                  <span>{{ category.name }}</span>
-                  <div class="pricing-toggle__icon">
-                    {% include icons/icon-toggle-open.html %}
-                    {% include icons/icon-toggle-close.html %}
-                  </div>
-                </label>
-                <div class="pricing-toggle__content">
-                  <ul>
-                    {% for feature in category.features %}
-                      <li>{{ feature.name }}</li>
-                    {% endfor %}
-                  </ul>
+            <h2 class="pricing-tier__name">{{ tier.name }}</h2>
+            <div class="pricing-price">
+              <h3>
+                <div class="pricing-price__number">
+                  <span class="pricing-price__currency">&pound;</span>
+                  {{ tier.price }}
                 </div>
-              </div>
-            {% endfor %}
+                <p class="pricing-vat">+VAT</p>
+                <p class="pricing-duration">per month per branch</p>
+              </h3>
+            </div>
+            <a class="button" href="/book-demo">Book a demo</a>
+          </div>
+
+          <div class="pricing-tier__content">
+            <ul>
+              {% for feature in tier.features %}
+                <li>{% include icons/icon-check.html %}<span>{{ feature.name }}</span></li>
+              {% endfor %}
+            </ul>
+          </div>
         </section>
       {% endfor %}
     </div>
