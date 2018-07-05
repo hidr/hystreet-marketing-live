@@ -1,0 +1,233 @@
+# Note: Make sure to update data for both desktop and mobile data below
+# To display check on desktop, use true as the featurevalue
+# To display a cross, use false
+
+categories: # FOR DESKTOP
+  - basics:
+    name: Basics
+    features:
+      - branches:
+        name: Branches
+        tiers:
+          - professional:
+            featurevalue: 1 - 3
+          - enterprise:
+            featurevalue: 4 - 20
+          - corporate:
+            featurevalue: 21+
+      - users:
+        name: Users
+        tiers:
+          - professional:
+            featurevalue: Unlimited users
+          - enterprise:
+            featurevalue: Unlimited users
+          - corporate:
+            featurevalue: Unlimited users
+      - knowledgebase:
+        name: Knowledge base
+        tiers:
+          - professional:
+            featurevalue: true
+          - enterprise:
+            featurevalue: true
+          - corporate:
+            featurevalue: true
+      - listings:
+        name: Listing limit
+        tiers:
+          - professional:
+            featurevalue: 150*
+          - enterprise:
+            featurevalue: 1000*
+          - corporate:
+            featurevalue: Unlimited*
+      - marketing:
+        name: Marketing materials
+        tiers:
+          - professional:
+            featurevalue: false
+          - enterprise:
+            featurevalue: true
+          - corporate:
+            featurevalue: true
+      - custom-marketing:
+        name: Custom marketing materials
+        tiers:
+          - professional:
+            featurevalue: false
+          - enterprise:
+            featurevalue: false
+          - corporate:
+            featurevalue: true
+      - dedicated-support-manager:
+        name: Dedicated support manager
+        tiers:
+          - professional:
+            featurevalue: false
+          - enterprise:
+            featurevalue: false
+          - corporate:
+            featurevalue: true
+      - custom-domains:
+        name: Custom domains
+        tiers:
+          - professional:
+            featurevalue: false
+          - enterprise:
+            featurevalue: false
+          - corporate:
+            featurevalue: true
+      - staff-white-label:
+        name: Staff site whitelabelling
+        tiers:
+          - professional:
+            featurevalue: false
+          - enterprise:
+            featurevalue: false
+          - corporate:
+            featurevalue: true
+      - online-appointment-booking:
+        name: Online appointment booking
+        tiers:
+          - professional:
+            featurevalue: true
+          - enterprise:
+            featurevalue: true
+          - corporate:
+            featurevalue: true
+      - automated-id-checks:
+        name: Automated ID checks
+        tiers:
+          - professional:
+            featurevalue: true
+          - enterprise:
+            featurevalue: true
+          - corporate:
+            featurevalue: true
+      - automatic-feedback-chasing:
+        name: Automatic feedback chasing
+        tiers:
+          - professional:
+            featurevalue: true
+          - enterprise:
+            featurevalue: true
+          - corporate:
+            featurevalue: true
+      - online-listing-approval:
+        name: Online listing approval
+        tiers:
+          - professional:
+            featurevalue: true
+          - enterprise:
+            featurevalue: true
+          - corporate:
+            featurevalue: true
+      - online-payments:
+        name: Online payments
+        tiers:
+          - professional:
+            featurevalue: true
+          - enterprise:
+            featurevalue: true
+          - corporate:
+            featurevalue: true
+      - online-offer-negotiation:
+        name: Online offer negotiation
+        tiers:
+          - professional:
+            featurevalue: true
+          - enterprise:
+            featurevalue: true
+          - corporate:
+            featurevalue: true
+
+tiers: # FOR MOBILE TABLE & DESKTOP HEADINGS
+  - professional:
+    name: Professional
+    uiname: professional
+    price: 149
+    features:
+      - branches:
+        name: 1 - 3 branches
+      - users:
+        name: Unlimited users
+      - knowledgebase:
+        name: Knowledge base included
+      - listings:
+        name: 150 listings*
+      - online-appointment-booking:
+        name: Online appointment booking
+      - automated-id-checks:
+        name: Automated ID checks
+      - automatic-feedback-chasing:
+        name: Automatic feedback chasing
+      - online-listing-approval:
+        name: Online listing approval
+      - online-payments:
+        name: Online payments
+      - online-offer-negotiation:
+        name: Online offer negotiation
+  - enterprise:
+    name: Enterprise
+    uiname: enterprise
+    price: 124
+    features:
+      - branches:
+        name: 4 - 20 branches
+      - users:
+        name: Unlimited users
+      - knowledgebase:
+        name: Knowledge base included
+      - listings:
+        name: 1000 listings*
+      - marketing:
+        name: Marketing materials
+      - online-appointment-booking:
+        name: Online appointment booking
+      - automated-id-checks:
+        name: Automated ID checks
+      - automatic-feedback-chasing:
+        name: Automatic feedback chasing
+      - online-listing-approval:
+        name: Online listing approval
+      - online-payments:
+        name: Online payments
+      - online-offer-negotiation:
+        name: Online offer negotiation
+
+  - corporate:
+    name: Corporate
+    uiname: corporate
+    price: Enquire
+    features:
+      - branches:
+        name: 21+ branches
+      - users:
+        name: Unlimited users
+      - knowledgebase:
+        name: Knowledge base included
+      - listings:
+        name: Unlimited listings*
+      - marketing:
+        name: Marketing materials
+      - custom-marketing:
+        name: Custom marketing materials
+      - dedicated-support-manager:
+        name: Dedicated support manager
+      - custom-domains:
+        name: Custom domains
+      - staff-white-label:
+        name: White labelled staff area
+      - online-appointment-booking:
+        name: Online appointment booking
+      - automated-id-checks:
+        name: Automated ID checks
+      - automatic-feedback-chasing:
+        name: Automatic feedback chasing
+      - online-listing-approval:
+        name: Online listing approval
+      - online-payments:
+        name: Online payments
+      - online-offer-negotiation:
+        name: Online offer negotiation
