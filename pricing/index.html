@@ -23,16 +23,29 @@ description: Choose the right pricing plan for your business.
             <div class="pricing-tier">
               <h2 class="pricing-tier__name">{{ tier.name }}</h2>
               <div class="pricing-price">
-                <h3>
-                  <div class="pricing-price__number">
-                    <span class="pricing-price__currency">&pound;</span>
-                    {{ tier.price }}
-                  </div>
-                  <p class="pricing-vat">+VAT</p>
-                  <p class="pricing-duration">per month per branch</p>
-                </h3>
+                {% if tier.price == "Enquire" %}
+                  <h3>
+                    <div class="pricing-price__number">
+                      <span class="pricing-price__currency">&pound;</span>
+                      <span title="Price on application">POA</span>
+                    </div>
+                  </h3>
+                {% else %}
+                  <h3>
+                    <div class="pricing-price__number">
+                      <span class="pricing-price__currency">&pound;</span>
+                      {{ tier.price }}
+                    </div>
+                    <p class="pricing-vat">+VAT</p>
+                    <p class="pricing-duration">per month per branch</p>
+                  </h3>
+                {% endif %}
               </div>
-              <a class="button" href="/book-demo">Book a demo</a>
+              {% if tier.price == "Enquire" %}
+                <a href="#support" class="button" data-proofer-ignore>Enquire</a>
+              {% else %}
+                <a class="button" href="/book-demo">Book a demo</a>
+              {% endif %}
             </div>
           </div>
         {% endfor %}
@@ -75,16 +88,29 @@ description: Choose the right pricing plan for your business.
           <div class="pricing-tier">
             <h2 class="pricing-tier__name">{{ tier.name }}</h2>
             <div class="pricing-price">
-              <h3>
-                <div class="pricing-price__number">
-                  <span class="pricing-price__currency">&pound;</span>
-                  {{ tier.price }}
-                </div>
-                <p class="pricing-vat">+VAT</p>
-                <p class="pricing-duration">per month per branch</p>
-              </h3>
+              {% if tier.price == "Enquire" %}
+                <h3>
+                  <div class="pricing-price__number">
+                    <span class="pricing-price__currency">&pound;</span>
+                    <span title="Price on application">POA</span>
+                  </div>
+                </h3>
+              {% else %}
+                <h3>
+                  <div class="pricing-price__number">
+                    <span class="pricing-price__currency">&pound;</span>
+                    {{ tier.price }}
+                  </div>
+                  <p class="pricing-vat">+VAT</p>
+                  <p class="pricing-duration">per month per branch</p>
+                </h3>
+              {% endif %}
             </div>
-            <a class="button" href="/book-demo">Book a demo</a>
+            {% if tier.price == "Enquire" %}
+              <a href="#support" class="button" data-proofer-ignore>Enquire</a>
+            {% else %}
+              <a class="button" href="/book-demo">Book a demo</a>
+            {% endif %}
           </div>
 
           <div class="pricing-tier__content">

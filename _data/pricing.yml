@@ -9,143 +9,143 @@ categories: # FOR DESKTOP
       - branches:
         name: Branches
         tiers:
-          - small:
+          - professional:
             featurevalue: 1 - 3
-          - medium:
+          - enterprise:
             featurevalue: 4 - 20
-          - large:
+          - corporate:
             featurevalue: 21+
       - users:
         name: Users
         tiers:
-          - small:
+          - professional:
             featurevalue: Unlimited users
-          - medium:
+          - enterprise:
             featurevalue: Unlimited users
-          - large:
+          - corporate:
             featurevalue: Unlimited users
       - knowledgebase:
         name: Knowledge base
         tiers:
-          - small:
+          - professional:
             featurevalue: true
-          - medium:
+          - enterprise:
             featurevalue: true
-          - large:
+          - corporate:
             featurevalue: true
       - listings:
         name: Listing limit
         tiers:
-          - small:
+          - professional:
             featurevalue: 150*
-          - medium:
+          - enterprise:
             featurevalue: 1000*
-          - large:
+          - corporate:
             featurevalue: Unlimited*
       - marketing:
         name: Marketing materials
         tiers:
-          - small:
+          - professional:
             featurevalue: false
-          - medium:
+          - enterprise:
             featurevalue: true
-          - large:
+          - corporate:
             featurevalue: true
       - custom-marketing:
         name: Custom marketing materials
         tiers:
-          - small:
+          - professional:
             featurevalue: false
-          - medium:
+          - enterprise:
             featurevalue: false
-          - large:
+          - corporate:
             featurevalue: true
       - dedicated-support-manager:
         name: Dedicated support manager
         tiers:
-          - small:
+          - professional:
             featurevalue: false
-          - medium:
+          - enterprise:
             featurevalue: false
-          - large:
+          - corporate:
             featurevalue: true
       - custom-domains:
         name: Custom domains
         tiers:
-          - small:
+          - professional:
             featurevalue: false
-          - medium:
+          - enterprise:
             featurevalue: false
-          - large:
+          - corporate:
             featurevalue: true
       - staff-white-label:
         name: Staff site whitelabelling
         tiers:
-          - small:
+          - professional:
             featurevalue: false
-          - medium:
+          - enterprise:
             featurevalue: false
-          - large:
+          - corporate:
             featurevalue: true
       - online-appointment-booking:
         name: Online appointment booking
         tiers:
-          - small:
+          - professional:
             featurevalue: true
-          - medium:
+          - enterprise:
             featurevalue: true
-          - large:
+          - corporate:
             featurevalue: true
       - automated-id-checks:
         name: Automated ID checks
         tiers:
-          - small:
+          - professional:
             featurevalue: true
-          - medium:
+          - enterprise:
             featurevalue: true
-          - large:
+          - corporate:
             featurevalue: true
       - automatic-feedback-chasing:
         name: Automatic feedback chasing
         tiers:
-          - small:
+          - professional:
             featurevalue: true
-          - medium:
+          - enterprise:
             featurevalue: true
-          - large:
+          - corporate:
             featurevalue: true
       - online-listing-approval:
         name: Online listing approval
         tiers:
-          - small:
+          - professional:
             featurevalue: true
-          - medium:
+          - enterprise:
             featurevalue: true
-          - large:
+          - corporate:
             featurevalue: true
       - online-payments:
         name: Online payments
         tiers:
-          - small:
+          - professional:
             featurevalue: true
-          - medium:
+          - enterprise:
             featurevalue: true
-          - large:
+          - corporate:
             featurevalue: true
       - online-offer-negotiation:
         name: Online offer negotiation
         tiers:
-          - small:
+          - professional:
             featurevalue: true
-          - medium:
+          - enterprise:
             featurevalue: true
-          - large:
+          - corporate:
             featurevalue: true
 
-tiers: # FOR MOBILE
-  - small:
-    name: Small
-    uiname: small
+tiers: # FOR MOBILE TABLE & DESKTOP HEADINGS
+  - professional:
+    name: Professional
+    uiname: professional
     price: 149
     features:
       - branches:
@@ -168,9 +168,9 @@ tiers: # FOR MOBILE
         name: Online payments
       - online-offer-negotiation:
         name: Online offer negotiation
-  - medium:
-    name: Medium
-    uiname: medium
+  - enterprise:
+    name: Enterprise
+    uiname: enterprise
     price: 124
     features:
       - branches:
@@ -196,10 +196,10 @@ tiers: # FOR MOBILE
       - online-offer-negotiation:
         name: Online offer negotiation
 
-  - large:
-    name: Large
-    uiname: large
-    price: 99
+  - corporate:
+    name: Corporate
+    uiname: corporate
+    price: Enquire
     features:
       - branches:
         name: 21+ branches

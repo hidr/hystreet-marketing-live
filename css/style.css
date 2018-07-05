@@ -4539,6 +4539,10 @@ body {
   margin-left: 2px;
 }
 
+.pricing-price__number abbr {
+  border-bottom: none;
+}
+
 .pricing-price h3 {
   display: flex;
   align-items: center;
@@ -4623,6 +4627,14 @@ body {
 @media only screen and (min-width: 968px) {
   .pricing-tier {
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .pricing-tier .pricing-tier__name,
+  .pricing-tier .pricing-price {
+    flex-grow: 1;
   }
 }
 
