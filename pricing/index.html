@@ -24,23 +24,18 @@ description: Choose the right pricing plan for your business.
             <div class="pricing-tier">
               <h2 class="pricing-tier__name">{{ tier.name }}</h2>
               <div class="pricing-price">
-                {% if tier.price == "Enquire" %}
-                  <div class="pricing-price__container">
-                    <div class="pricing-price__number">
-                      <span class="pricing-price__currency">&pound;</span>
+                <div class="pricing-price__container">
+                  <div class="pricing-price__number">
+                    <span class="pricing-price__currency">&pound;</span>
+                    {% if tier.price == "Enquire" %}
                       <span title="Price on application">POA</span>
-                    </div>
-                  </div>
-                {% else %}
-                  <div class="pricing-price__container">
-                    <div class="pricing-price__number">
-                      <span class="pricing-price__currency">&pound;</span>
+                    {% else %}
                       <span>{{ tier.price }}</span>
-                    </div>
-                    <p class="pricing-vat">+VAT</p>
-                    <p class="pricing-duration">per month per branch</p>
+                    {% endif %}
                   </div>
-                {% endif %}
+                  <p class="pricing-vat">+VAT</p>
+                  <p class="pricing-duration">per month per branch</p>
+                </div>
               </div>
               {% if tier.price == "Enquire" %}
                 <a href="#pricing" class="button" data-proofer-ignore>Enquire</a>
