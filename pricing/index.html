@@ -7,12 +7,13 @@ description: Choose the right pricing plan for your business.
 {% comment %} NOTE: when updating, make sure to check mobile data is updated {% endcomment %}
 
 <div class='full'>
-  <div class="row layout-text">
+  <div class="row layout-text" style="max-width: 1024px;">
     <h1>Pricing</h1>
     <p>Whether you're just starting out, taking your estate agency to the next level, or planning the next move for your nationwide business, we've got pricing plans that fit an agency of any size. As your business grows, Hystreet will grow with you.</p>
     <p>Remember, you will never have to go it alone. Our support team will always be here to help you get the most out of your Hystreet platform, however big your business is.</p>
   </div>
 </div>
+  {% include demo-slip.html %}
 <div class='full'>
   <div class="row">
     <div class="pricing-table"> {% comment %} Pricing table {% endcomment %}
@@ -42,7 +43,7 @@ description: Choose the right pricing plan for your business.
                 {% endif %}
               </div>
               {% if tier.price == "Enquire" %}
-                <a href="#support" class="button" data-proofer-ignore>Enquire</a>
+                <a href="#pricing" class="button" data-proofer-ignore>Enquire</a>
               {% else %}
                 <a class="button" href="/book-demo">Book a demo</a>
               {% endif %}
@@ -126,4 +127,5 @@ description: Choose the right pricing plan for your business.
 
     <p style="margin-top: 30px;max-width: 1024px;margin-left: auto; margin-right: auto;font-style: italic;">* 50 live listings per branch.</p>
   </div>
+
 </div>
