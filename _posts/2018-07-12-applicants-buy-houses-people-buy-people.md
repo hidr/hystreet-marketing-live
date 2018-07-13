@@ -15,7 +15,7 @@ At the end of the day, your fees are always going to be set competitively agains
 
 Obviously, knowing your corner of the market is important for the job but, time and time again, vendors have told me that the biggest things they looked for in their agents were approachability, professionalism, and a real desire to help them throughout the selling process. I think this quote from an anonymous vendor sums this idea up nicely:
 
-“I want it to feel like my agent is providing a service, not just making a sale.”
+> “I want it to feel like my agent is providing a service, not just making a sale.”
 
 Now, let’s think about this from an online agency perspective. If you’re running your service straight off a website, it’s going to be harder to make that first impression. It’s easy to fall into the trap of setting up a bunch of third party tools that plug straight into your website and thinking that’s all you will need for an online service. You still need to make an impression on your clients as early as possible, so they know who is managing their sale and (most importantly) you’ve got their back right from the get-go.
 
