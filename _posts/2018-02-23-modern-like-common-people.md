@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Modern like Common People"
+description: his week I was out of the doghouse and busy with the team working on getting the portal feeds sorted again as well as going
 date:   2018-02-23 13:54:18 +0800
 author: Awais Ahmad
 img: Rock_en_Seine_2007,_Jarvis_Cocker.jpg

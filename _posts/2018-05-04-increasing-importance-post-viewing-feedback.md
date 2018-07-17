@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The Increasing Importance of Post-Viewing Feedback"
+description: This week has been super busy. We’ve welcomed some new team members as we continue to improve and develop Hystreet to better serve...
 date:   2018-05-04 14:13:00 +0800
 author: Awais Ahmad
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How estate agents can utilise tech to improve conveyancing"
+description: onveyancing is broken; it’s old fashioned and slow to change. Of all the parts of a property transaction, as an agent, I hate...
 date:   2018-04-13 14:37:00 +0800
 author: Awais Ahmad
 ---

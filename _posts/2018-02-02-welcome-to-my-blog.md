@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blog for high street estate agents"
+description: Welcome to my blog, helping high street estate agents navigate the plethora of technology offerings and looking at what can actually help or what would hinder agents as we move through a technological revolution within our industry.
 date:   2018-02-02 10:54:18 +0800
 author: Awais Ahmad
 img: iStock-638149788_700.jpg
@@ -8,7 +9,8 @@ img: iStock-638149788_700.jpg
 
 ![computers]({{site.url}}/images/iStock-638149788_700.jpg)
 
-Welcome to my blog, helping high street estate agents navigate the plethora of technology offerings and looking at what can actually help or what would hinder agents as we move through a technological revolution within our industry.
+
+description: Welcome to my blog, helping high street estate agents navigate the plethora of technology offerings and looking at what can actually help or what would hinder agents as we move through a technological revolution within our industry.
 
 That’s the professional intro, the simple version is that there’s a load of technology out there for estate agents, some is excellent, though a lot of it is just plain rubbish. The best of these tools can make our lives easier, improve our businesses and make us more money, the rest frankly are a waste of time. Having had a few bad experiences with the crappy ones it was hard for me to try, or even consider, products that were offered to me afterwards, trust me when I say this was a mistake.
 
