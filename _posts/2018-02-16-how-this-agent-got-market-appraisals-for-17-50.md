@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How this agent got market appraisals for £17.50"
+description: So, I find myself writing this from the doghouse (more on that later). Last week was great, I was on a high with a huge amount of great...
 date:   2018-02-16 16:54:18 +0800
 author: Awais Ahmad
 img: iStock-642799740.jpg

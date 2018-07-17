@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Are You An Estate Agent Heading For Failure?"
+description: I do not know anything except I do not want to become a dinosaur! What I have come to realise in my life so far is that I actually have not got a clue what I'm doing.
 date:   2017-10-16 15:37:00 +0800
 author: Dan Reasons
 img: 20170816-blog.jpg

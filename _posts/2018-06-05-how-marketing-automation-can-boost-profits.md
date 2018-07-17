@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How marketing automation can boost your profits"
+description: We are mixing things up with the blog from here on out! From now on, we’re bringing in some of the knowledge and experience from other...
 date:   2018-06-05 09:46:00 +0800
 author: Dylan Kinsella
 ---

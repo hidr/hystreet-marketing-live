@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What can we learn from 'The Beast From the East?"
+description: I’m sat in a cafe in the Bulgarian Capital of Sofia. It was -20°c this morning and over a foot of snow on the pathways so...
 date:   2018-03-05 10:37:00 +0800
 author: Awais Ahmad
 img: Sofia_winter.jpg

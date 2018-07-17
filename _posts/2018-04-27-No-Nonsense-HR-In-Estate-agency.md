@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A no-nonsense look at HR in Estate Agency"
+description: This week we’ve been focussing on finalising some of the designs for version 2 of Hystreet, as part of an ongoing process I’ve...
 date:   2018-04-27 14:13:00 +0800
 author: Awais Ahmad
 ---

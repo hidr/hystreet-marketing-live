@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Estate Agents Making Stacks"
+description: My time snowboarding has come to an end. This week has been one based around pondering, when I set out on this journey my...
 date:   2018-03-23 10:37:00 +0800
 author: Awais Ahmad
 ---
