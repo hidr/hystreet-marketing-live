@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Applicants Buy Homes, But People Buy People"
-description: So, it’s been a while since we made a blog post, but now the torch has been passed to me! Quick intro: My name’s Josh...
+description: So, it’s been a while since we made a blog post, but now the torch has been passed to me! My name’s Josh...
 date:   2018-07-13 09:46:00 +0800
 author: Josh Brough
 ---
