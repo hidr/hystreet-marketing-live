@@ -155,7 +155,7 @@ tiers: # FOR MOBILE TABLE & DESKTOP HEADINGS
   - professional:
     name: Professional
     uiname: professional
-    price: 149
+    price: 199
     features:
       - branches:
         name: 1 - 3 branches
@@ -182,7 +182,7 @@ tiers: # FOR MOBILE TABLE & DESKTOP HEADINGS
   - enterprise:
     name: Enterprise
     uiname: enterprise
-    price: 124
+    price: 174
     features:
       - branches:
         name: 4 - 20 branches
