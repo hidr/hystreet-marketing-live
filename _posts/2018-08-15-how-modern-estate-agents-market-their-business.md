@@ -6,7 +6,7 @@ date:   2018-08-15 16:34:00 +0800
 author: Ellie Wright
 ---
 
-![Blog]({{site.url}}/images/20180815-ellie-blog.png)
+![Blog]({{site.url}}/images/20180815-ellie-blog.jpg)
 
 Hi! I’m Ellie, the customer success manager here at Hystreet. It’s my job to make sure our clients are receiving the best support possible when using their platform and provide them with as much user training as possible. One thing we aren’t keen on doing here at Hystreet is leaving our clients to guess how to use the system after watching a demo, not fully understanding how all the functions really work. We want our clients to feel confident when using Hystreet and equally as confident about the online service they’re offering.
 <!--more-->
