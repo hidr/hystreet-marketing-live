@@ -1387,12 +1387,13 @@ ul.info i:hover {
 
 .post {
   margin: 60px auto;
-  max-width: 75%;
+  max-width: 50%;
 }
 
 .post img {
     margin:0 auto !important;
     display: block !important;
+    max-width: 100%;
 }
 
 .excerpt p {
