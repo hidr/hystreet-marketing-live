@@ -3316,7 +3316,7 @@ body {
 
   .post {
     margin: 60px auto;
-    max-width: 75%;
+    max-width: 50%;
   }
 
 @media screen and (max-width: 1026px) {
