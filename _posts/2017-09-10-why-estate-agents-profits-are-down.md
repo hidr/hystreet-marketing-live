@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why estate agent's profits are down"
+description: Earlier this year major players Countywide and Foxtons published their results and they were significantly down.
 date:   2017-09-10 15:37:00 +0800
 author: Dan Reasons
 img: 20170810-blog.jpg

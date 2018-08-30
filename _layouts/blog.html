@@ -1,58 +1,66 @@
 ---
 layout: default
 ---
-<div class='full about-hero' style='background: URL("{{site.url}}/images/blue-awais.jpg");                                                  background-position:0% 20%;                                                  background-size:cover;'>
+<div class='full' style='background: URL("{{site.url}}/images/blue-awais.jpg");                                                  background-position:0% 20%;                                                  background-size:cover;'>
   <div class='row'>
-    <div class='special-title layout-text' style="    position: sticky;    vertical-align: middle;    margin-top: 10%;    margin-bottom:  10%;">
+    <div class='special-title layout-text' style="    z-index: 66; position: sticky;    vertical-align: middle;    margin-top: 10%;    margin-bottom:  10%;">
       <h2 style="margin-top: 8px; margin-bottom:20px; color: #FFF;font-size: 329%;font-weight: bolder;">Our Blog</h2>
-      <p style="color:#FFFFFF;">Founder and CEO of Hystreet Awais Ahmad shares his thoughts in this weekly blog.</p>
+      <p style="color:#FFFFFF;">Founder and CEO of Hystreet Awais Ahmad shares his thoughts in our blog.</p>
     </div>
     <div class='spacing'></div>
     <div class='spacing'></div>
   </div>
 </div>
-<div class='full' style="    height: fit-content;    background: #333;">
+<div class='full' style="    height: fit-content;    background: #333;     box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);">
   <div class='row' style="max-width: 1003px; display:table;">
-    <div style="margin:0 auto;">
-      <h2 style="    float:  left;    margin-right:  20px;   color:#FFF">Recieve our weekly blog?</h2>
-      <form accept-charset="UTF-8" action="https://ge395.infusionsoft.com/app/form/process/3a2068882de6cd4ab24e281e9c53eedf" class="infusion-form" id="inf_form_3a2068882de6cd4ab24e281e9c53eedf" method="POST">
-        <input name="inf_form_xid" type="hidden" value="3a2068882de6cd4ab24e281e9c53eedf" />
-        <input name="inf_form_name" type="hidden" value="Web Form submitted" />
-        <input name="infusionsoft_version" type="hidden" value="1.69.0.37" />
-        <div class="infusion-field" style="float: left; margin-right: 20px;">
-          <input class="infusion-field-input" id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" style="color: #FFF" />
-        </div>
-        <div class="infusion-field" style="float: left; margin-right: 20px;">
-          <input class="infusion-field-input" id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" style="color: #FFF" />
-        </div>
-        <div>
-        </div>
-        <div class="infusion-submit" style="float: left; margin-right: 20px; margin-top:2px;">
-          <button style="margin:0 auto; display: block;     padding: 10px 20px;" class="button infusion-recaptcha" id="recaptcha_3a2068882de6cd4ab24e281e9c53eedf" type="submit">Sign up</button>
-        </div>
-      </form>
-      <script type="text/javascript" src="https://ge395.infusionsoft.com/app/webTracking/getTrackingCode"></script>
-      <script type="text/javascript" src="https://ge395.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.69.0.37-hf-201801311540"></script>
-      <script src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" async="async" defer="defer"></script>
-      <script type="text/javascript" src="https://ge395.infusionsoft.com/app/timezone/timezoneInputJs?xid=3a2068882de6cd4ab24e281e9c53eedf"></script>
-      <div class='large-12 columns'>
-      </div>
+    <div class="subscribe-container">
+      <h2 class="subscribe-title" style="margin-right:  20px;   color:#FFF;     margin-top: 20px;">Subscribe to our blog:</h2>
+      <!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://hystreet.us14.list-manage.com/subscribe/post?u=979ea251af2fac750595e4bce&amp;id=d04f739e93" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll" style="
+    display:  flex;
+">
+<div class="mc-field-group">
+	<label for="mce-EMAIL" style="color:#FFFFFF !important;">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="    width: 90%;
+    border-radius: 5px;
+    border-color: #FFF;">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME" style="color:#FFFFFF !important;">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME" style="    width: 90%;
+    border-radius: 5px;
+    border-color: #FFF;">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_979ea251af2fac750595e4bce_d04f739e93" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="    margin-top: 25px;"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
     </div>
   </div>
 </div>
 <div class="full">
   <div class="row">
-    {{ content }} {% if paginator %}
-    <div class="pager">
-      {% if paginator.next_page %} {% if paginator.next_page == 1 %}
-      <a href="/blog" class="older">Older Entries</a> {% else %}
-      <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries</a> {% endif %} {% else %}
-      <span class="older">Older Entries</span> {% endif %} {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-      <a href="/blog" class="newer">Newer Entries</a> {% else %}
-      <a href="/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a> {% endif %} {% else %}
-      <span class="newer">Newer Entries</span> {% endif %}
-    </div>
+    {{ content }}
+    {% if paginator %}
+      <div class="pager">
+        {% if paginator.next_page %} {% if paginator.next_page == 1 %}
+        <a href="/blog" class="older">Older Entries</a> {% else %}
+        <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries</a> {% endif %} {% else %}
+        <span class="older">Older Entries</span> {% endif %} {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+        <a href="/blog" class="newer">Newer Entries</a> {% else %}
+        <a href="/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a> {% endif %} {% else %}
+        <span class="newer">Newer Entries</span> {% endif %}
+      </div>
     {% endif %}
-
   </div>
 </div>

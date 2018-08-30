@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "High street agents have new firepower"
+description: High Street Agents now have the capacity to be packing some serious heat and Online Agents should be worried about it.
 date:   2017-08-08 15:37:00 +0800
 author: Dan Reasons
 img: 20170808-blog.png

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Sales Progression Secrets"
+description: This week has been a manic one, -20°C with snow and moving, I am now having a well-deserved break of a couple of days...
 date:   2018-03-12 10:37:00 +0800
 author: Awais Ahmad
 ---

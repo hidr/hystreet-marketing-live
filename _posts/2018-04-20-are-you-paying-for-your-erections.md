@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Are you paying for your erections?"
+description: So recently I heard about an agent who has decided against using boards to market his properties, apparently they are a...
+date:   2018-04-20 14:37:00 +0800
+author: Awais Ahmad
+---
+
+![computers]({{site.url}}/images/Forsale-boards.jpg)
+
+So recently I heard about an agent who has decided against using boards to market his properties, apparently they are a pain to manage, unsightly and out of date in this modern era. This in my opinion is a prime example of a silly sod who wants to use the idea of technology and modern marketing as an excuse to justify his own laziness.
+<!--more-->
+For sale boards are great even the young kids I saw utilising one of competitors boards during the period of snow testified to that. They told me these things make the best sledges, they are so fast on the snow. I nodded enthusiastically with a big grin on my face as these two young lads zipped down the golf course hills on sledges make from Correx printed bright green. But are these humble advertising boards still relevant?
+Over the years I have heard lots of excuses against having a for sale board. From security risks, I don’t want the neighbours to know, we don’t want people to knock on the door asking to take a look to its embarrassing to have a board up for ages if we don’t sell.  Most people would consider them all as valid reasons, but none of them outweighs the benefits when it comes to selling your property. We all know even now in age of iPads, Facebook and Instagram we still get buyers wanting to view because they saw the board. Various reports cite various numbers ranging from low single digits and apparently even as high as 50% as being the percentage of enquiries that originally came from having a board up. I personally think it only needs to bring one buyer to the table as you only need one buyer to sell.
+We all know most buyers will begin their property search online and so many sellers don’t consider there to be a need for a for sale board but I assure you there are still many valid reasons to have one. I will list a few:
+
+I would still jump in the car on a Sunday and drive around areas I would be interested in buying in to get a ‘feel for the area’ I know others do that too, the board in invaluable for these “drive buyers” (see what is did there). My biggest annoyance growing up was my sister telling us all every time we drove past a certain place near where we lived ‘if that house comes on the market I would love to buy it’. More commonly we agents hear ‘I would love to buy a house on so and so road’. Therefore, having a board outside of your place could attract that type of buyer. These buyers aren’t actively house hunting but would be interested if they saw “that” place actually come on the market. Equally boards are key for these “I’m not moving….unless” buyers. Also don’t forget friends/family from outside the area visiting family, they may not be thinking of moving, however would move to your area and the fact your house is on the market may just convince them to move closer to their support network, parents, friends or to be in that school that little Timmy “has” to get into. Finally, I would say without a for sale board no seller can say they are doing all they can to find a buyer.
+
+But clients aside for once, what other benefits does the low tech for sale board bring to the party.
+
+As you know, I like to track all market appraisals in my estate agency business and in 2018 the humble Correx for sale board has directly brought in nearly a fifth of all my market appraisals! That’s right 18.2% of all our market appraisals this year were down to a board. In our business it’s the second most crucial market appraisal generator. Compare this with the around £5k it cost me last year to pay a firm to erect and take down them it’s a solid rate of return. Aside from being a market appraisal generator the board is one of the most powerful of your brand assets, so it’s vital to keep it looking good; scruffy or wonky boards reflect poorly on your brand. If the boards are old or past their best, and looking tatty, then don’t accept it get new ones. Keeping it clean and straight is a subtle but strong indication to the public that’s the way your brand is, and they will subconsciously realise this. So in short this wood and plastic combo gets you market appraisals, conveys your brand (well or poorly depending on their state) and makes statements about how well you sell (I saw your boards are always sold) so make sure as soon as a deal is done the board says SSTC likewise leave that up until completion day or a couple of days before at the earliest. Finally, your dominance in an area is usually judged by your boards, we were considered by two clients as being the dominant agent in an area as they saw many of our boards, in fact the was another agent who didn’t have as many visible boards who actually had more stock in that area.
+
+So, take a long hard look at your boards and how you use them and invest in this low-tech solution. My personal favourite supplier for great quality printed boards and posts are <a href="http://www.kremersigns.co.uk/">Kremer Signs</a> , I use my local <a href="http://www.countrywidesigns.com/">Countrywide Signs</a> franchise to manage storing, maintaining putting them up and taking them down, their online platform is easy to use but it isn’t cheap. If you don’t want to pay an outside firm to manage putting your boards up and take them down I have seen a great off the shelf solution called <a href="http://www.boardclever.co.uk/">www.boardclever.co.uk</a> from the PBS creative team, this gives you the tech to manage your own boards without paying per erection.
+
+
+For those of you that missed it, this news item really was interesting:
+
+<a href="https://www.estateagenttoday.co.uk/breaking-news/2018/4/housesimple-becomes-first-online-agency-to-completely-scrap-upfront-fees">https://www.estateagenttoday.co.uk/breaking-news/2018/4/housesimple-becomes-first-online-agency-to-completely-scrap-upfront-fees</a>
+
+the standout bit for me was the many smug high street agents celebrating the demise of the upfront charging model (still less than 10% pf the market but growing), but what the clever clogs didn’t see was that these well-funded, tech driven estate agencies are now coming after the no sale no fee model which is over 90% of the overall market. Upfront charging is here to stay, the high tech driven agencies are here to stay, the question is, are the non tech driven, non-choice offering agencies here to stay?
+
+
+Next week I will be taking a no-nonsense look at HR in our industry - the past, present and the future.

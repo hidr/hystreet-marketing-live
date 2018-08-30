@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The most important Proptech for any estate agent"
+description: The single most important piece of Proptech in any estate agent’s business is…
 date:   2018-03-29 10:37:00 +0800
 author: Awais Ahmad
 ---
