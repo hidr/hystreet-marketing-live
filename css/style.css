@@ -1706,8 +1706,8 @@ h1, h2, h3, h4 {
 }
 
 .dark-grey {
-  background: #333333;
-      box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+  background: #343d4f;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
 }
 
 .pink-icons {
@@ -1754,9 +1754,8 @@ h1, h2, h3, h4 {
 .button {
   text-transform: uppercase;
   font-size: 0.9rem;
-  background: #e63375;
+  background: #e63375;G
   color: #fff;
-  border-radius: 5px;
   border-color: #e63375;
   box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
   padding: 10px;
@@ -2267,7 +2266,7 @@ textarea {
 /*footer */
 
 .footer {
-  background: linear-gradient( #232323, #000000);
+  background: #343d4f;
   padding: 40px 0 20px;
 }
 
@@ -3417,7 +3416,7 @@ body {
         text-align: center;
       }
       .time-bubble {
-        background: #343d4f;
+        background: #FF9021;
         height: 300px;
         width: 300px;
         border-radius: 500px;
@@ -3585,7 +3584,7 @@ body {
         background-position-y: 18px;
       }
       .time-bubble {
-        background: #343d4f;
+        background: #FF9021;
         height: 300px;
         width: 300px;
         border-radius: 5px;
@@ -3968,8 +3967,8 @@ body {
       position: absolute;
       top: 50%;
       left: 0;
-      border-top: 13px solid #e63375;
-      background: #e63375;
+      border-top: 13px solid #FFDD91;
+      background: #FFDD91;
       width: 100%;
       transform: translateY(-50%);
       border-radius: 100px;
@@ -4063,7 +4062,7 @@ body {
       padding: 10px 20px;
     }
     .time-bubble {
-      background: #343d4f;
+      background: #FF9021;
       height: 300px;
       width: 300px;
       border-radius: 5px;
@@ -4107,7 +4106,7 @@ body {
       top: 50%;
       left: 0;
       border-top: 13px solid #0fafd4;
-      background: #0fafd4;
+      background: #FFDD91;
       width: 100%;
       transform: translateY(-50%);
       border-radius: 100px;
@@ -4384,7 +4383,7 @@ body {
 }
 
 .header-menu a:hover {
-  color: #666666;
+  color: #FF9021;
 }
 
 .header-menu a:first-child {
