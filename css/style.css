@@ -1203,7 +1203,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   background-image: url(/images/homepage-laptop.png);
-  background-image: url(/images/homepage-laptop.png), linear-gradient( rgba(15, 175, 212, 1), rgba(15, 277, 506, 1));
+  background-image: url(/images/homepage-laptop.png), linear-gradient( rgba(15, 175, 212, 1), #FFDD91);
 }
 
 .f-topbar-fixed {
