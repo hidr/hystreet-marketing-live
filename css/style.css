@@ -55,7 +55,7 @@ h1, h2, h3, h4 {
 .full-blue {
   padding: 50px 0;
   background-size: cover;
-  background: linear-gradient( rgba(15, 175, 212, 1), rgba(15, 277, 506, 1));
+  background: #0fafd4;
 }
 
 .full-blue p, .full-blue h1, .full-blue h2, .full-blue h3, .full-blue h4 {
