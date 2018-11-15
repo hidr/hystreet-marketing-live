@@ -4699,3 +4699,42 @@ body {
 .pricing-toggle > input[type="checkbox"]:checked ~ .pricing-toggle__header .icon-toggle-open {
   display: none;
 }
+
+/* BOOK A DEMO SIDE BY SIDE */
+
+@media only screen and (min-width: 1026px) {
+
+.book-demo {
+    background: #0fafd4;
+    display: inline-block;
+}
+
+.book-demo .left {
+    width: 50vw;
+}
+
+.book-demo .signup-form {
+    width: 100%;
+}
+
+.book-demo .right .copy {
+    width: 35vw;
+}
+
+.book-demo .iframe-container {
+	height: 700px;
+}
+
+}
+@media only screen and (max-width: 1026) {
+  .book-demo .left {
+      width: 90vw;
+  }
+
+   .book-demo .right .copy {
+
+      width: 90vw;
+
+      margin-top: 50px;
+  }
+}
