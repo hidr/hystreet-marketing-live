@@ -4738,3 +4738,25 @@ body {
       margin-top: 50px;
   }
 }
+
+/* homepage illustration */
+@media only screen and (min-width: 1440px) {
+.illustration {
+min-height: 80vh;
+position: relative;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: bottom;
+background-image: url(/images/20181128hero-ill-bg-80.jpg);
+}
+}
+
+@media only screen and (min-width: 1440px) {
+.illustration {
+min-height: 80vh;
+position: relative;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: bottom;
+}
+}
