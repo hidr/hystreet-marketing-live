@@ -4751,7 +4751,7 @@ background-image: url(/images/20181128hero-ill-bg-80.jpg);
 }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) {
 .illustration {
 min-height: 80vh;
 position: relative;
