@@ -1,12 +1,12 @@
-- name: Product
+- name: Features
   path: product/
+  section_id: features-benefits
+- name: How It Works
+  path: how-it-works/
   section_id: features-benefits
 - name: Pricing
   path: pricing/
   section_id: pricing
-- name: Help
-  path: support/
-  section_id: support
 - name: About
   path: about/
   section_id: about us
