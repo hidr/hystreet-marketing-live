@@ -1,8 +1,8 @@
-- name: Features
-  path: product/
-  section_id: features-benefits
 - name: How It Works
   path: how-it-works/
+  section_id: features-benefits
+- name: Product
+  path: product/
   section_id: features-benefits
 - name: Pricing
   path: pricing/
