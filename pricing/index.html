@@ -10,124 +10,143 @@ description: Choose the right pricing plan for your estate agency. Hystreet's on
   <div class="row layout-text" style="max-width: 1024px;">
     <h1>Pricing</h1>
     <h3>
-        Six week no-obligation free trial
-      </h3>
-      <h3>
-        No set-up fee
-      </h3>
-      <h3>
-        Unlimited users
-      </h3>
-      <h3>
-        Free training
-      </h3>
-    <p>Whether you're just starting out, taking your estate agency to the next level, or planning the next move for your nationwide business, we've got pricing plans that fit an agency of any size. As your business grows, Hystreet will grow with you.</p>
+      Six week no-obligation free trial
+    </h3>
+    <h3>
+      No set-up fee
+    </h3>
+    <h3>
+      Unlimited users
+    </h3>
+    <h3>
+      Free training
+    </h3>
+    <p>Whether you're just starting out, taking your estate agency to the next level, or planning the next move for your nationwide business, we've got pricing plans that fit an agency of any size. As your business grows, Hystreet will grow with
+      you.</p>
   </div>
 </div>
-  {% include demo-slip.html %}
+{% include demo-slip.html %}
 <div class='full'>
   <div class="row">
     <div class="pricing-table"> {% comment %} Pricing table {% endcomment %}
       <header class="pricing-header"> {% comment %} Header {% endcomment %}
         <div class="pricing-col pricing-col-info"></div>
         {% for tier in site.data.pricing.tiers %}
-          <div class="pricing-col pricing-col-item">
-            <div class="pricing-tier">
-              <h2 class="pricing-tier__name">{{ tier.name }}</h2>
-              <div class="pricing-price">
-                <div class="pricing-price__container">
-                  <div class="pricing-price__number">
-                    <span class="pricing-price__currency">&pound;</span>
-                    {% if tier.price == "Enquire" %}
-                      <span title="Price on application">POA</span>
-                    {% else %}
-                      <span>{{ tier.price }}</span>
-                    {% endif %}
-                  </div>
-                  <p class="pricing-vat">+VAT</p>
-                  <p class="pricing-duration">per month per branch</p>
+        <div class="pricing-col pricing-col-item">
+          <div class="pricing-tier">
+            <h2 class="pricing-tier__name">{{ tier.name }}</h2>
+            <div class="pricing-price">
+              <div class="pricing-price__container">
+                <div class="pricing-price__number">
+                  <span class="pricing-price__currency">&pound;</span>
+                  {% if tier.price == "Enquire" %}
+                  <span title="Price on application">POA</span>
+                  {% else %}
+                  <span>{{ tier.price }}</span>
+                  {% endif %}
                 </div>
+                <p class="pricing-vat">+VAT</p>
+                <p class="pricing-duration">per month per branch</p>
               </div>
-              {% if tier.price == "Enquire" %}
-                <a href="#pricing" class="button" data-proofer-ignore>Enquire</a>
-              {% else %}
-                <a class="button" href="/book-demo">Book a demo</a>
-              {% endif %}
             </div>
+            {% if tier.price == "Enquire" %}
+            <a href="#pricing" class="button" data-proofer-ignore>Enquire</a>
+            {% else %}
+            <a class="button" href="/book-demo">Book a demo</a>
+            {% endif %}
           </div>
+        </div>
         {% endfor %}
       </header> {% comment %} END Header {% endcomment %}
 
       {% for category in site.data.pricing.categories %}
-        <div class="pricing-row pricing-row-heading">
-          <div class="pricing-col pricing-col-info">
-            <h4>{{ category.name }}</h4>
-          </div>
-          <div class="pricing-col pricing-col-item"></div>
-          <div class="pricing-col pricing-col-item"></div>
-          <div class="pricing-col pricing-col-item"></div>
+      <div class="pricing-row pricing-row-heading">
+        <div class="pricing-col pricing-col-info">
+          <h4>{{ category.name }}</h4>
         </div>
+        <div class="pricing-col pricing-col-item"></div>
+        <div class="pricing-col pricing-col-item"></div>
+        <div class="pricing-col pricing-col-item"></div>
+      </div>
 
-        {% for feature in category.features %}
-          <div class="pricing-row">
-            <div class="pricing-col pricing-col-info">
-              <p>{{ feature.name }}</p>
-            </div>
-            {% for tier in feature.tiers %}
-              <div class="pricing-col pricing-col-item">
-                {% if tier.featurevalue == true %}
-                  {% include icons/icon-check.html %}
-                {% elsif tier.featurevalue == false %}
-                  {% include icons/icon-cross.html %}
-                {% else %}
-                  <p>{{ tier.featurevalue }}</p>
-                {% endif %}
-              </div>
-            {% endfor %}
-          </div>
+      {% for feature in category.features %}
+      <div class="pricing-row">
+        <div class="pricing-col pricing-col-info">
+          <p>{{ feature.name }}</p>
+        </div>
+        {% for tier in feature.tiers %}
+        <div class="pricing-col pricing-col-item">
+          {% if tier.featurevalue == true %}
+          {% include icons/icon-check.html %}
+          {% elsif tier.featurevalue == false %}
+          {% include icons/icon-cross.html %}
+          {% else %}
+          <p>{{ tier.featurevalue }}</p>
+          {% endif %}
+        </div>
         {% endfor %}
+      </div>
       {% endfor %}
+      {% endfor %}
+      <header class="pricing-header">
+        <div class="pricing-col pricing-col-info"></div>
+        <div class="pricing-col pricing-col-item">
+          <div class="pricing-tier">
+            <a class="button" href="/book-demo">Book a demo</a>
+          </div>
+        </div>
+        <div class="pricing-col pricing-col-item">
+          <div class="pricing-tier">
+            <a class="button" href="/book-demo">Book a demo</a>
+          </div>
+        </div>
+        <div class="pricing-col pricing-col-item">
+          <div class="pricing-tier">
+            <a href="#pricing" class="button" data-proofer-ignore="">Enquire</a>
+          </div>
+        </div>
+      </header>
     </div> {% comment %} END Pricing table {% endcomment %}
 
     <div class="pricing-table--mobile">
       {% for tier in site.data.pricing.tiers %}
-        <section class="pricing-tier-section">
-          <div class="pricing-tier">
-            <h2 class="pricing-tier__name">{{ tier.name }}</h2>
-            <div class="pricing-price">
-              {% if tier.price == "Enquire" %}
-                <div class="pricing-price__container">
-                  <div class="pricing-price__number">
-                    <span class="pricing-price__currency">&pound;</span>
-                    <span title="Price on application">POA</span>
-                  </div>
-                </div>
-              {% else %}
-                <div class="pricing-price__container">
-                  <div class="pricing-price__number">
-                    <span class="pricing-price__currency">&pound;</span>
-                    {{ tier.price }}
-                  </div>
-                  <p class="pricing-vat">+VAT</p>
-                  <p class="pricing-duration">per month per branch</p>
-                </div>
-              {% endif %}
-            </div>
+      <section class="pricing-tier-section">
+        <div class="pricing-tier">
+          <h2 class="pricing-tier__name">{{ tier.name }}</h2>
+          <div class="pricing-price">
             {% if tier.price == "Enquire" %}
-              <a href="#support" class="button" data-proofer-ignore>Enquire</a>
+            <div class="pricing-price__container">
+              <div class="pricing-price__number">
+                <span class="pricing-price__currency">&pound;</span>
+                <span title="Price on application">POA</span>
+              </div>
+            </div>
             {% else %}
-              <a class="button" href="/book-demo">Book a demo</a>
+            <div class="pricing-price__container">
+              <div class="pricing-price__number">
+                <span class="pricing-price__currency">&pound;</span>
+                {{ tier.price }}
+              </div>
+              <p class="pricing-vat">+VAT</p>
+              <p class="pricing-duration">per month per branch</p>
+            </div>
             {% endif %}
           </div>
+          {% if tier.price == "Enquire" %}
+          <a href="#support" class="button" data-proofer-ignore>Enquire</a>
+          {% else %}
+          <a class="button" href="/book-demo">Book a demo</a>
+          {% endif %}
+        </div>
 
-          <div class="pricing-tier__content">
-            <ul>
-              {% for feature in tier.features %}
-                <li>{% include icons/icon-check.html %}<span>{{ feature.name }}</span></li>
-              {% endfor %}
-            </ul>
-          </div>
-        </section>
+        <div class="pricing-tier__content">
+          <ul>
+            {% for feature in tier.features %}
+            <li>{% include icons/icon-check.html %}<span>{{ feature.name }}</span></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
       {% endfor %}
     </div>
 
