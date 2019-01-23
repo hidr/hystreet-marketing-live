@@ -2,7 +2,6 @@
 layout: post
 title:  "What aspect of an estate agent’s service are sellers most dissatisfied with?"
 description: When most agents think about how to improve their service and to help ease customers frustrations, minds turn immediately to how to fees...
-date:   2018-11-22 13:51:00 +0800
 author: Dylan Kinsella
 ---
 
