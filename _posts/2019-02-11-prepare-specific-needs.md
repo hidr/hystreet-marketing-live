@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Agents need to prepare for buyers and sellers with specific needs"
+description: It’s easy to begin to speculate how many leads a typical estate agent may have lost to other agents that appear to meet the sellers’ needs.
+author: Dylan Kinsella
+---
+
+![Blog]({{site.url}}/images/iStock-638149788_700.jpg)
+
+As the online marketplace expands even further in 2019 with companies such as Amazon, Expedia, and more continuing to push boundaries in customer service, the number of customers demanding not simply more online-focused services, but services that meet their exact needs – whatever they may be, has continued to grow.
+It’s often important that we remember estate agents deal with such a wide sample of the public. Most people, be they young or old will need to sell, buy, or at least rent a property at some point in their lives. In 2019, it is now almost a given that the majority of these customers have recently had more enjoyable and convenient customer service experiences which are tailored to their specific needs than most estate agents can currently offer.
+
+An easy example we can use in order to highlight this growth is the holiday industry. Specifically, around travel agents. The line of ‘online has taken over the travel agent market’ is a tired one, so I will try to avoid it in this article... After all, most of us will still be able to spot one or two travel agents on our local high street. Instead, let us examine the qualities that allowed these travel agents to survive the phenomenal amount of change in their market.
+It’s easy to see that the idea of a typical holiday has changed. Whether a holiday-maker books their holiday online or in person with a travel agent, most people fully customise their holidays down to the finest detail, selecting activities, flight times, flight providers, transfers and hotels – the point of this isn’t that the option now exists to book holidays online, as the end result (a fully customised and tailored holiday) is the same regardless of how the holiday itself was booked.
+Many estate agencies won’t easily see the comparison, as selling a home does indeed deal with much larger financial assets and often represents the biggest financial commitment a person may well make in their lives – but if we look at this in terms of fees, booking a holiday still typically costs upwards of £2000, which is a figure very comparable to most estate agents’ fees.
+It’s easy to see that offering a tailored service not only attracts more customers but makes your business more resilient in a changing market.
+
+According to a government survey of successful UK home sellers, 83% of sellers in the UK sold with a traditional agent, compared to just 5% who sold with an online-only agent. Judging by these stats, it’s obviously easy to see that online is not going to take over and traditional agents should continue doing what they’re doing… Right? Actually, I would argue that as technology continues to be adopted by so-called ‘traditional’ agents, these labels become less-and-less relevant, and agents should be less worried about what online agents are doing, but more what technologies other agents on the high street are using to win customers.
+In fact, the majority of sellers who used a traditional agent were not able to give a concrete reason as to why they chose an online agent over an online agent, private sale, or auction. Simply stating that  ‘they prefer to do it that way’ – in addition to this, we also know that three-quarters of sellers invite multiple agents to come and value their property, it’s easy to begin to speculate how many leads a typical estate agent may have lost to other agents that appear to meet the sellers’ needs much more easily and readily.
+One must ask – if these customers were aware of other, more flexible services, would they instead opt for a service that appeared to be explicitly more preferable when held against what they value in a service?
+
+Hystreet provide state-of-the-art CRM systems to estate agencies across the UK that enables agents to provide cutting edge customer service via 24/7 online portals and client accounts for buyers, sellers, and agents. The Hystreet software uses your branding at every customer-facing point, meaning you can offer this to your customers without diluting your brand. Estate agents that use Hystreet also get access to our supportive team, ready and willing to assist with not only integrating it into your business and website, but to provide assistance & materials for marketing and more.
