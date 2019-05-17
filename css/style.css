@@ -3820,8 +3820,8 @@ body {
   }
   .signup-form {
     background: white;
-      padding-bottom: 80px;
-      padding-top: 40px;
+      /* padding-bottom: 80px;
+      padding-top: 40px; */
       margin-bottom: 100px;
       box-shadow: 5px 20px 50px #33333330;
       display: flow-root;
@@ -3831,7 +3831,7 @@ body {
       margin-right: auto;
       margin-top: 0;
       margin-bottom: 0;
-      padding: 50px;
+      /* padding: 50px; */
   }
     .support-slip .left-button {
       margin-left: 122px;
@@ -4710,7 +4710,7 @@ body {
 }
 
 .book-demo .left {
-    width: 50vw;
+    width: 35vw;
 }
 
 .book-demo .signup-form {
@@ -4718,7 +4718,7 @@ body {
 }
 
 .book-demo .right, .book-demo .copy {
-    width: 35vw;
+    width: 50vw;
 }
 
 .book-demo .iframe-container {
